@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Visszaszámláló",
-    "currentPage": "iskola.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -45,7 +45,12 @@
     "noImageResize": "true",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-123000352-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-123000352-1');\r\n</script>",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": {
+      "colorText": "#ffffff",
+      "colorLink": "#ffffff",
+      "underlineLink": false,
+      "text": "Az oldal sütiket használ és felhasználói adatokat gyűjt statisztika céljából!"
+    }
   },
   "pages": {
     "karacsony.html": {
