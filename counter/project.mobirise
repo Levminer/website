@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Visszaszámláló",
-    "currentPage": "index.html",
+    "currentPage": "iskola.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,7 +41,7 @@
     "uniqCompNum": 113,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/favicon-white-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-white-2.png",
     "noImageResize": "true",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-123000352-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-123000352-1');\r\n</script>",
     "cookiesAlert": "",
