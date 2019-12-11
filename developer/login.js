@@ -28,3 +28,5 @@ do {
         alert("Hibás név vagy jelszó!")
     }
 } while (i>ok);
+
+console.log("ver 1")
