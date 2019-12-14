@@ -1,0 +1,15 @@
+body {
+    color: white;
+    background-color: grey;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.p1 {
+    font-size: 60px;
+    text-align: center;
+}
