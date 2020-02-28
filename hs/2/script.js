@@ -2,11 +2,13 @@
 //! 2020.01.10
 
 //? Ha lejár az idő valamiért kiírja hogy 1.szint vesztettél tisztázatlan okokból
+//? Csak másodszorra marad u.a az idő
 
 //variables
 
 let level = 0
 let counter = 0
+let tcounter = 0
 let the_timer = 0
 let time = 0
 let interval = 0
@@ -69,9 +71,10 @@ function timer_1() {
 	document.getElementById("timer").innerHTML = the_timer + " másodperc maradt!"
 
 	if (the_timer == 0) {
+		clearInterval(interval)
 		counter = 0
 		time = 0
-		the_timer = 0
+		the_timer = 300
 		level = 1
 		start()
 		alert("Vesztettél! Játék újrakezdése!")
@@ -87,9 +90,10 @@ function level1() {
 	let level_log = document.getElementById("log").value
 	let level_pas = document.getElementById("pas").value
 
-	if (time == 0) {
+	if (tcounter == 0) {
 		the_timer = 300
 		time++
+		tcounter++
 	}
 
 	if (level_login == level_log && level_password == level_pas) {
@@ -116,8 +120,6 @@ function level1() {
 
 		level = 1
 
-		the_timer = 60
-
 		time = 0
 
 		clearInterval(interval)
@@ -128,6 +130,7 @@ function level1() {
 			alert("Vesztettél! Játék újrakezdése!")
 			counter = 0
 			level = 1
+			clearInterval(interval)
 		}
 	}
 
@@ -143,9 +146,10 @@ function level2() {
 	let level_log = document.getElementById("log").value
 	let level_pas = document.getElementById("pas").value
 
-	if (time == 1) {
+	if (tcounter == 1) {
 		the_timer = 240
 		time++
+		tcounter++
 	}
 
 	if (level_login == level_log && level_password == level_pas) {
@@ -160,8 +164,6 @@ function level2() {
 
 		counter = 0
 
-		the_timer = 180
-
 		clearInterval(interval)
 	} else {
 		alert("Sikertelen bejelentkezés! (2.szint)")
@@ -171,8 +173,6 @@ function level2() {
 		document.getElementById("otp").value = ""
 
 		level = 2
-
-		the_timer = 60
 
 		time = 0
 
@@ -201,16 +201,13 @@ function level3() {
 	let level_pas = document.getElementById("pas").value
 	let level_pwr = document.getElementById("pwr").value
 
-	if (time == 2) {
+	if (tcounter == 2) {
 		the_timer = 180
 		time++
+		tcounter++
 	}
 
-	if (
-		level_login == level_log &&
-		level_password == level_pas &&
-		level_passwordreminder == level_pwr
-	) {
+	if (level_login == level_log && level_password == level_pas && level_passwordreminder == level_pwr) {
 		alert("Sikeres bejelentkezés! (3.szint)")
 
 		document.getElementById("log").value = ""
@@ -222,8 +219,6 @@ function level3() {
 
 		counter = 0
 
-		the_timer = 120
-
 		clearInterval(interval)
 	} else {
 		alert("Sikertelen bejelentkezés! (3.szint)")
@@ -233,8 +228,6 @@ function level3() {
 		document.getElementById("otp").value = ""
 
 		level = 3
-
-		the_timer = 60
 
 		time = 0
 
@@ -256,7 +249,7 @@ function level3() {
 
 function level4() {
 	let level_login = "danifortnite"
-	let level_password = "fortniteláma"
+	let level_password = "fortnitelama"
 	let level_passwordreminder = "pizza"
 	let level_onetimepassword = "201015"
 
@@ -265,9 +258,10 @@ function level4() {
 	let level_pwr = document.getElementById("pwr").value
 	let level_otp = document.getElementById("otp").value
 
-	if (time == 3) {
+	if (tcounter == 3) {
 		the_timer = 120
 		time++
+		tcounter++
 	}
 
 	if (
@@ -287,8 +281,6 @@ function level4() {
 
 		counter = 0
 
-		the_timer = 60
-
 		clearInterval(interval)
 	} else {
 		alert("Sikertelen bejelentkezés! (4.szint)")
@@ -298,8 +290,6 @@ function level4() {
 		document.getElementById("otp").value = ""
 
 		level = 4
-
-		the_timer = 60
 
 		time = 0
 
@@ -323,9 +313,7 @@ function level5() {
 	clearInterval(interval)
 	the_timer = 0
 
-	alert(
-		"Miközben megpróbáltad feltörni Elon fiókját az FBI rádrúgta az ajtót és letartóztattak!"
-	)
+	alert("Miközben megpróbáltad feltörni Elon fiókját az FBI rádrúgta az ajtót és letartóztattak!")
 
 	document.getElementById("log").value = ""
 	document.getElementById("pas").value = ""
