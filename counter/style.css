@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	text-align: center;
+	color: white;
+	width: 98%;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background: black;
+}
+
+#button {
+	background-color: white;
+	border-radius: 28px;
+	border: 1px solid white;
+	display: inline-block;
+	cursor: pointer;
+	color: black;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+#button:hover {
+	background: black;
+	border: 1px solid white;
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
