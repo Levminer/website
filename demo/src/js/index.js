@@ -1,3 +1,7 @@
+if (screen.width <= 800) {
+	window.location = "https://www.levminer.me"
+}
+
 const oneElement = document.querySelector("#ityped")
 
 const text = window.ityped.init(oneElement, {
