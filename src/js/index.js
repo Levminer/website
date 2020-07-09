@@ -1,5 +1,5 @@
-if (screen.width <= 800) {
-	window.location = "https://www.levminer.me"
+if (screen.width <= 700) {
+	window.location = "https://www.levminer.me/projects.html"
 }
 
 const oneElement = document.querySelector("#ityped")
@@ -7,7 +7,7 @@ const oneElement = document.querySelector("#ityped")
 const text = window.ityped.init(oneElement, {
 	showCursor: false,
 	typeSpeed: 100,
-	strings: ["Tesla Calculator", "Netflix Statistics Maker"],
+	strings: ["Hi!", "Tesla Calculator", "Netflix Statistics Maker", "Web Developer"],
 })
 
 particlesJS("particles-js", {
