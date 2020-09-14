@@ -77,7 +77,7 @@ a:visited {
 
 @media screen and (max-width: 1000px) {
 	body {
-		overflow: scroll;
+		overflow-y: scroll;
 		background-color: black;
 	}
 }
