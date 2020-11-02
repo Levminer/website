@@ -7,11 +7,23 @@ body {
 	overflow: hidden;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: black;
+	animation: fadeInAnimation ease-in 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 #but {
 	background-color: rgb(0, 0, 0);
-	border-radius: 28px;
+	border-radius: 30px;
 	border: 1px solid white;
 	display: inline-block;
 	cursor: pointer;
@@ -20,7 +32,7 @@ body {
 	font-size: 17px;
 	padding: 16px 31px;
 	text-decoration: none;
-	transition: 0.3s;
+	transition: 0.2s ease-in;
 	position: absolute;
 	bottom: 30px;
 	right: 355px;
@@ -41,7 +53,7 @@ a:visited {
 	color: white;
 }
 
-.center {
+.centered {
 	position: relative;
 	top: 1000px;
 	text-align: center;

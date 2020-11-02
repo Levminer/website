@@ -1,17 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.levminer.me/index.html</loc>
+		<loc>https://www.levminer.com/index.html</loc>
 	</url>
 	<url>
-		<loc>https://www.levminer.me/wallpapers.html</loc>
-	</url>
-	<url>
-		<loc>https://www.levminer.me/projects.html</loc>
-	</url>
-	<url>
-		<loc>https://www.levminer.me/policies/privacy.html</loc>
-	</url>
-	<url>
-		<loc>https://www.levminer.me/policies/terms.html</loc>
+		<loc>https://www.levminer.com/projects.html</loc>
 	</url>
 </urlset>
