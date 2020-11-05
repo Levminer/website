@@ -1,4 +1,4 @@
-const oneElement = document.querySelector("#ityped")
+const oneElement = document.querySelector("#typing")
 
 const text = window.ityped.init(oneElement, {
 	showCursor: false,
@@ -11,14 +11,14 @@ const text = window.ityped.init(oneElement, {
 		"Hi",
 		"Feel Free To Email Me",
 		"Good To See You",
-		"Feel free to Check out My Projects",
+		"Check out My Projects",
 	],
 })
 
-particlesJS("particles-js", {
+particlesJS("particles", {
 	particles: {
 		number: {
-			value: 150,
+			value: 100,
 			density: {
 				enable: true,
 				value_area: 800,
@@ -105,14 +105,14 @@ particlesJS("particles-js", {
 				},
 			},
 			bubble: {
-				distance: 50,
+				distance: 100,
 				size: 0,
-				duration: 1,
+				duration: 2,
 				opacity: 0,
 				speed: 3,
 			},
 			repulse: {
-				distance: 400,
+				distance: 300,
 				duration: 0.4,
 			},
 			push: {
@@ -123,5 +123,5 @@ particlesJS("particles-js", {
 			},
 		},
 	},
-	retina_detect: true,
+	retina_detect: false,
 })

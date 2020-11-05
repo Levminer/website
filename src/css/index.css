@@ -1,17 +1,12 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
-	overflow: hidden;
-	font-family: Arial, Helvetica, sans-serif;
 	background-color: black;
+	overflow: hidden;
+	display: grid;
+
+	/* load animation */
 	animation: fadeInAnimation ease-in 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(1fr));
 }
 
 @keyframes fadeInAnimation {
@@ -23,76 +18,74 @@ body {
 	}
 }
 
-#but {
-	background-color: rgb(0, 0, 0);
-	border-radius: 30px;
-	border: 1px solid white;
-	display: inline-block;
-	cursor: pointer;
-	color: rgb(255, 255, 255);
-	font-family: Arial;
-	font-size: 17px;
-	padding: 16px 31px;
+h1 {
+	font-size: 9.5vh;
+}
+
+h2 {
+	font-size: 5vh;
+}
+
+a {
 	text-decoration: none;
-	transition: 0.2s ease-in;
+}
+
+img {
+	width: 10vh;
+}
+
+canvas {
+	display: block;
+	top: 0;
 	position: absolute;
-	bottom: 30px;
-	right: 355px;
-}
-#but:hover {
-	background: rgb(255, 255, 255);
-	border: 1px solid white;
-	color: rgb(0, 0, 0);
 }
 
-a:link {
-	text-decoration: none;
-	color: white;
-}
-
-a:visited {
-	text-decoration: none;
-	color: white;
-}
-
-.centered {
+/* classes */
+.grid {
 	position: relative;
-	top: 1000px;
+	top: 20vh;
+	margin: 0 auto;
 	text-align: center;
-	color: white;
+	width: 1000px;
+	z-index: 1;
+}
 
-	margin: 100px auto;
-	height: 500px;
-	width: 850px;
-	border-radius: 25px;
+.type {
+	position: absolute;
+	height: 1vh;
+	width: 1000px;
+	margin: 0 auto;
+	top: 8vh;
 }
 
 .images {
 	position: absolute;
-	top: 140px;
-	left: 290px;
+	top: 19vh;
+	width: 1000px;
+	margin: 0 auto;
 }
 
-#img {
-	margin-left: 20px;
-}
-
-#h11 {
-	font-size: 5rem;
-}
-
-#particles-js {
-	position: relative;
-	top: -700px;
-	width: 100%;
-	height: 100%;
+.button2 {
 	background-color: black;
-	max-height: 2000px;
+	color: white;
+	border-color: white;
 }
 
-@media screen and (max-width: 1919px) {
-	body {
-		overflow-y: scroll;
-		background-color: black;
-	}
+.button2:hover {
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+.buttons {
+	position: absolute;
+	top: 50vh;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* ids */
+
+#button0 {
+	font-size: 3vh;
 }
