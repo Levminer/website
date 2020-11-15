@@ -5,13 +5,13 @@ const text = window.ityped.init(oneElement, {
 	typeSpeed: 100,
 	strings: [
 		"Welcome",
-		"Check Out My Twitter",
+		"Check out my Twitter",
 		"<3",
-		"Check Out My GitHub",
+		"Check out my GitHub",
 		"Hi",
-		"Feel Free To Email Me",
-		"Good To See You",
-		"Check out My Projects",
+		"Feel free to Email me",
+		"Good to see you",
+		"Check out my Projects",
 	],
 })
 
