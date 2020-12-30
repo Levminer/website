@@ -4,6 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -42,6 +43,7 @@ header {
 	flex: 1;
 	display: flex;
 	align-items: center;
+	transition: 2s ease-in;
 }
 
 .nav-btn {
@@ -65,6 +67,12 @@ header {
 	font-size: 1.25rem;
 	font-weight: bold;
 	line-height: 3rem;
+	transition: 0.2s ease-in;
+}
+
+.logo:hover {
+	border-radius: 30px;
+	background-color: var(--df_pri_back);
 }
 
 .btn {
@@ -461,7 +469,7 @@ a {
 	height: 1vh;
 	width: 1000px;
 	margin: 0 auto;
-	top: 10vh;
+	top: 12vh;
 }
 
 .button2 {
@@ -478,7 +486,7 @@ a {
 
 .buttons {
 	position: absolute;
-	top: 20vh;
+	top: 22vh;
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -537,7 +545,7 @@ section {
 	position: relative;
 	top: 50px;
 	padding-top: 0px;
-	height: 710px;
+	height: 720px;
 	width: 1300px;
 }
 
@@ -621,7 +629,7 @@ section#features {
 
 .down {
 	position: relative;
-	bottom: -480px;
+	bottom: -460px;
 }
 
 .down_img {
@@ -646,7 +654,7 @@ a:visited {
 }
 
 #center1 {
-	height: 600px;
+	height: 630px;
 }
 
 .wp_buttons {
