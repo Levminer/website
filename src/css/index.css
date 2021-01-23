@@ -16,6 +16,9 @@ body {
 	animation: fadeInAnimation ease-in 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
+
+	width: 100%;
+	height: 100%;
 }
 
 @keyframes fadeInAnimation {
@@ -98,4 +101,19 @@ canvas {
 #button0 {
 	font-size: 3vh;
 	border-radius: 5vh;
+}
+
+@media (max-width: 480px) {
+	body {
+		overflow: hidden;
+	}
+
+	.grid {
+		position: relative;
+		left: -280px;
+	}
+
+	.typing {
+		font-size: 5px;
+	}
 }
