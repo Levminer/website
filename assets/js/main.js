@@ -4,8 +4,6 @@ const download = async () => {
 			.then((res) => res.json())
 			.then((data) => {
 				try {
-					console.log(data)
-
 					let download_count = 0
 
 					for (let i = 0; i < data.length; i++) {
@@ -16,8 +14,6 @@ const download = async () => {
 							download_count += data[i].assets[3].download_count
 						} catch (error) {}
 					}
-
-					console.log(download_count)
 
 					document.querySelector("#dc").textContent = download_count
 				} catch (error) {

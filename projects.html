@@ -3,16 +3,14 @@
 	<head>
 		<link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
 		<meta name="description" content="Levminer's projects" />
-		<meta name="viewport" content="width=1024" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta charset="UTF-8" />
 		<title>Projects</title>
 		<!-- css -->
-		<link rel="stylesheet" href="assets/css/dragonfly.css" />
-		<link rel="stylesheet" href="assets/css/styles.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link rel="stylesheet" href="./tailwind/tailwind.css" />
 		<!-- js -->
-		<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-		<script defer src="assets/js/main.js"></script>
+		<script defer src="./assets/js/main.js"></script>
 		<!-- analytics -->
 		<script
 			defer
@@ -22,162 +20,419 @@
 	</head>
 
 	<body>
-		<div class="container">
-			<!-- navbar -->
-			<header>
-				<div class="nav_container">
-					<input type="checkbox" name="" id="check" />
-
-					<div class="logo-container">
-						<a href="./index.html"><h3 class="logo">Levminer</h3></a>
+		<!-- nav -->
+		<header class="text-gray-50 bg-gray-900 sticky top-0 z-50">
+			<div class="container mx-auto flex lex-shrink-0 flex-wrap p-5 flex-col md:flex-row items-center">
+				<span class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+					<span><a class="ml-3 text-xl" href="#">Levminer</a></span>
+				</span>
+				<nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+					<a href="./index.html" class="mr-5 text-2xl hover:text-gray-300 duration-200">Home</a>
+					<a href="./projects.html" class="mr-5 text-2xl hover:text-gray-300 duration-200">Projects</a>
+					<div class="dropdown relative">
+						<button class="mr-5 text-2xl hover:text-white">
+							<h1 class="mr-1 hover:text-gray-200 duration-200">More</h1>
+						</button>
+						<ul class="dropdown-menu absolute hidden duration-200 text-gray-50 pt-1 z-50 db">
+							<li>
+								<a
+									class="rounded-t bg-gray-700 hover:bg-gray-600 py-3 px-4 block whitespace-no-wrap"
+									target="_blank"
+									href="https://developer.levminer.com"
+									rel="noopener"
+								>
+									Developer</a
+								>
+							</li>
+							<li>
+								<a
+									class="bg-gray-700 hover:bg-gray-600 py-2 px-4 block whitespace-no-wrap"
+									target="_blank"
+									href="./counter/index.html"
+								>
+									Counter</a
+								>
+							</li>
+							<li>
+								<a
+									class="bg-gray-700 hover:bg-gray-600 py-2 px-4 block whitespace-no-wrap"
+									target="_blank"
+									href="https://games.levminer.com"
+									rel="noopener"
+								>
+									Games</a
+								>
+							</li>
+							<li>
+								<a
+									class="rounded-b bg-gray-700 hover:bg-gray-600 py-2 px-4 block whitespace-no-wrap"
+									target="_blank"
+									href="./hs/index.html"
+									>HS</a
+								>
+							</li>
+						</ul>
 					</div>
-
-					<div class="nav-btn">
-						<div class="nav-links">
-							<ul>
-								<li class="nav-link" style="--i: 0.6s">
-									<a href="index.html">Home</a>
-								</li>
-								<li class="nav-link" style="--i: 0.6s">
-									<a href="projects.html">Projects</a>
-								</li>
-								<li class="nav-link" style="--i: 1.1s">
-									<a href="#">More<i class="fas fa-caret-down"></i></a>
-									<div class="dropdown">
-										<ul>
-											<li class="dropdown-link">
-												<a href="https://developer.levminer.com">Developer</a>
-											</li>
-											<li class="dropdown-link">
-												<a href="./counter/index.html">Counter</a>
-											</li>
-											<li class="dropdown-link">
-												<a href="https://games.levminer.com">Games<i class="fas fa-caret-down"></i></a>
-											</li>
-											<li class="dropdown-link">
-												<a href="./hs/index.html">HS</a>
-											</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</div>
-
-						<div class="log-sign" style="--i: 1.8s">
-							<a href="mailto:contact@levminer.com" class="btn transparent">Contact</a>
-						</div>
+				</nav>
+				<button
+					class="
+						flex
+						items-center
+						px-3
+						py-2
+						mt-2
+						font-medium
+						tracking-wide
+						text-white
+						capitalize
+						transition-colors
+						duration-200
+						transform
+						bg-gray-700
+						rounded-3xl
+						hover:bg-gray-600
+						focus:outline-none
+					"
+				>
+					<a target="_blank" rel="noopener" href="mailto:contact@levminer.com">Contact</a>
+				</button>
+			</div>
+		</header>
+		<!-- hero -->
+		<section class="text-gray-50 bg-gray-800 body-font">
+			<div class="container hero mx-auto flex py-72 items-center justify-center -mt-12 flex-col">
+				<div class="text-center lg:w-2/3 w-full">
+					<h1 class="title-font font-bold text-7xl mb-4 font-medium text-white">Levminer</h1>
+					<p class="leading-relaxed text-5xl mb-4">Projects</p>
+					<div class="flex gap-3 justify-center du">
+						<button
+							class="
+								flex
+								items-center
+								px-3
+								py-2
+								mt-2
+								font-medium
+								tracking-wide
+								text-lg text-white
+								capitalize
+								transition-colors
+								duration-200
+								transform
+								bg-gray-700
+								rounded-3xl
+								hover:bg-gray-600
+								focus:outline-none
+							"
+						>
+							<a href="#desktop">Desktop projects</a>
+						</button>
+						<button
+							class="
+								flex
+								items-center
+								px-3
+								py-2
+								mt-2
+								text-lg
+								font-medium
+								tracking-wide
+								text-white
+								capitalize
+								transition-colors
+								duration-200
+								transform
+								bg-gray-700
+								rounded-3xl
+								hover:bg-gray-600
+								focus:outline-none
+							"
+						>
+							<a href="#web">Web projects</a>
+						</button>
 					</div>
-
-					<div class="hamburger-menu-container">
-						<div class="hamburger-menu">
-							<div></div>
-						</div>
-					</div>
-				</div>
-			</header>
-
-			<!-- site -->
-			<section id="home">
-				<div class="grid">
-					<div class="title">
-						<h1 class="animate__animated animate__zoomIn">Levminer</h1>
-					</div>
-
-					<div class="subtitle animate__animated animate__zoomIn">
-						<h2>Projects</h2>
-					</div>
-
-					<div class="buttons animate__animated animate__zoomIn">
-						<a class="button2" href="#desktop">Desktop projects</a>
-						<a class="button2" href="#web">Web projects</a>
-					</div>
-
-					<div class="down animate__animated animate__zoomIn">
-						<a href="#desktop" rel="noopener">
-							<img class="down_img" src="./assets/img/down.svg" alt="Down" title="Down" />
+					<div class="flex mt-36 justify-center">
+						<a href="#desktop">
+							<img class="w-20 h-20" src="./assets/img/down.svg" alt="down-arrow" />
 						</a>
 					</div>
 				</div>
-			</section>
-			<section id="desktop">
-				<h2 id="desktop_header">Desktop Projects</h2>
-				<div class="center" id="center0">
-					<h3 id="desktop_sub_header">Authme</h3>
+			</div>
+		</section>
+		<!-- desktop -->
+		<section id="desktop" class="m-44 container flex flex-wrap mx-auto flex-col">
+			<div class="flex justify-center">
+				<h1 class="text-5xl text-gray-50 mx-auto mb-10 mt-32">Desktop Projects</h1>
+			</div>
+			<!-- card -->
+			<div class="max-w-2xl mx-auto overflow-hidden bg-white rounded-lg bg-gray-700 p-5">
+				<img src="./assets/img/authme.jpg" alt="authme" />
 
-					<img src="./assets/img/authme.png" alt="Authme" />
-
-					<p class="text2">Simple cross platform two-factor authentication app for desktop.</p>
-
-					<div class="web_buttons">
-						<a class="button2" rel="noopener" target="_blank" href="https://authme.levminer.com#downloads">Download</a>
-						<a class="button2" rel="noopener" target="_blank" href="https://github.com/Levminer/authme">Source</a>
-						<a class="button2" rel="noopener" target="_blank" href="https://authme.levminer.com">Website</a>
-					</div>
-
-					<div class="web_icons">
-						<span id="downloads"> <ion-icon name="arrow-down-circle"></ion-icon> Downloads: <span id="dc"></span> </span>
-						<ion-icon name="code-slash-outline"></ion-icon> Technologies: Electron, JavaScript
-						<span id="stars"><ion-icon name="star"></ion-icon> Stars: <span id="sg"></span></span>
-					</div>
-				</div>
-			</section>
-			<section id="web">
-				<h2 id="web_header">Web Projects</h2>
-				<div class="parent">
-					<div class="div1">
-						<div class="center" id="center1">
-							<h3 id="wp_title">Tesla Calculator</h3>
-							<img src="./assets/img/tc.jpg" alt="Tesla Calculator" />
-
-							<p class="text2">Website that calculatates how long you have to work to get a Tesla!</p>
-
-							<div class="wp_buttons">
-								<a class="button2" rel="noopener" target="_blank" href="https://github.com/Levminer/tesla-calculator">Source</a>
-								<a class="button2" rel="noopener" target="_blank" href="https://teslacalculator.levminer.com">Website</a>
-							</div>
-
-							<div class="wp_icons"><ion-icon name="code-slash-outline"></ion-icon> Technologies: HTML, JavaScript</div>
+				<div class="p-6">
+					<div class="flex justify-center flex-col">
+						<h1 class="text-4xl font-bold text-gray-50 font-medium mx-auto">Authme</h1>
+						<h2 class="block mt-2 text-2xl text-center text-gray-50 mx-auto">
+							Simple cross platform two-factor authentication app for desktop.
+						</h2>
+						<div class="flex gap-3 justify-center mt-5">
+							<button
+								class="
+									flex
+									items-center
+									px-3
+									py-2
+									mt-2
+									font-medium
+									tracking-wide
+									text-lg text-white
+									capitalize
+									transition-colors
+									duration-200
+									transform
+									bg-gray-600
+									rounded-3xl
+									hover:bg-gray-500
+									focus:outline-none
+								"
+							>
+								<a target="_blank" rel="noopener" href="https://authme.levminer.com/#downloads">Download</a>
+							</button>
+							<button
+								class="
+									flex
+									items-center
+									px-3
+									py-2
+									mt-2
+									text-lg
+									font-medium
+									tracking-wide
+									text-white
+									capitalize
+									transition-colors
+									duration-200
+									transform
+									bg-gray-600
+									rounded-3xl
+									hover:bg-gray-500
+									focus:outline-none
+								"
+							>
+								<a target="_blank" rel="noopener" href="https://github.com/levminer/authme">Source</a>
+							</button>
+						</div>
+						<div>
+							<h3 class="flex justify-center pt-10 text-gray-50 text-lg flex-wrap flex-row gap-3">
+								<div class="flex flex-row gap-1">
+									<img src="./assets/img/download.svg" alt="download" /> Downloads: <span id="dc"></span>
+								</div>
+								<div class="flex flex-row gap-1">
+									<img src="./assets/img/code.svg" alt="code" /> Technologies: Electron, JavaScript
+								</div>
+								<div class="flex flex-row gap-1"><img src="./assets/img/star.svg" alt="code" /> Stars: <span id="sg"></span></div>
+							</h3>
 						</div>
 					</div>
-					<div class="div2">
-						<div class="center" id="center1">
-							<h3 id="wp_title">Netflix Statistics</h3>
-							<img src="./assets/img/ns.jpg" alt="Netflix Statistics" />
+				</div>
+			</div>
+		</section>
+		<!-- web -->
+		<section id="web" class="m-44 container flex flex-wrap mx-auto flex-col">
+			<div class="flex justify-center">
+				<h1 class="text-5xl text-gray-50 mx-auto mb-10 mt-32">Web Projects</h1>
+			</div>
+			<div class="flex flex-row flex-wrap gap-3">
+				<!-- card -->
+				<div class="max-w-2xl object-cover mx-auto overflow-hidden bg-white rounded-lg bg-gray-700 p-5">
+					<div class="mx-auto flex justify-center">
+						<img src="./assets/img/tc.jpg" alt="teslacalculator" />
+					</div>
 
-							<p class="text2">If you want to know how much time you spent in your life watching Netflix!</p>
-
-							<div class="wp_buttons">
-								<a class="button2" rel="noopener" target="_blank" href="https://github.com/Levminer/netflix-statistics">Source</a>
-								<a class="button2" rel="noopener" target="_blank" href="https://netflixstatistics.levminer.com">Website</a>
+					<div class="p-6">
+						<div class="flex justify-center flex-col">
+							<h1 class="text-4xl font-bold text-gray-50 font-medium mx-auto">Tesla Calculator</h1>
+							<h2 class="block mt-2 text-2xl text-center text-gray-50 mx-auto">
+								Website that calculatates how long you have to work to get a Tesla!
+							</h2>
+							<div class="flex gap-3 justify-center mt-5">
+								<button
+									class="
+										flex
+										items-center
+										px-3
+										py-2
+										mt-2
+										font-medium
+										tracking-wide
+										text-lg text-white
+										capitalize
+										transition-colors
+										duration-200
+										transform
+										bg-gray-600
+										rounded-3xl
+										hover:bg-gray-500
+										focus:outline-none
+									"
+								>
+									<a target="_blank" rel="noopener" href="https://teslacalculator.levminer.com/">Website</a>
+								</button>
+								<button
+									class="
+										flex
+										items-center
+										px-3
+										py-2
+										mt-2
+										text-lg
+										font-medium
+										tracking-wide
+										text-white
+										capitalize
+										transition-colors
+										duration-200
+										transform
+										bg-gray-600
+										rounded-3xl
+										hover:bg-gray-500
+										focus:outline-none
+									"
+								>
+									<a target="_blank" rel="noopener" href="https://github.com/levminer/tesla-calculator">Source</a>
+								</button>
 							</div>
-
-							<div class="wp_icons"><ion-icon name="code-slash-outline"></ion-icon> Technologies: Express, JavaScript</div>
+							<div>
+								<h3 class="flex justify-center pt-10 text-gray-50 text-lg flex-wrap flex-row gap-3">
+									<div class="flex flex-row gap-1">
+										<img src="./assets/img/code.svg" alt="code" /> Technologies: HTML, JavaScript
+									</div>
+								</h3>
+							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<footer>
-				<p class="text3">
-					<a href="https://www.levminer.com/policies/privacy.html" target="_blank">Privacy</a> -
-					<a href="https://www.levminer.com/policies/terms.html" target="_blank">Terms</a>
-				</p>
+				<!-- card -->
+				<div class="max-w-2xl mx-auto overflow-hidden bg-white rounded-lg bg-gray-700 p-5">
+					<div class="mx-auto flex justify-center">
+						<img src="./assets/img/ns.jpg" alt="netflixstatistics" />
+					</div>
 
-				<div class="images">
-					<a href="https://twitter.com/levminer92" target="_blank" rel="noopener">
-						<img id="img" src="./src/img/twitter.svg" alt="twitter" />
-					</a>
+					<div class="p-6">
+						<div class="flex justify-center flex-col">
+							<h1 class="text-4xl font-bold text-gray-50 font-medium mx-auto">Netflix Statistics</h1>
+							<h2 class="block mt-2 text-2xl text-center text-gray-50 mx-auto">
+								If you want to know how much time you spent in your life watching Netflix!
+							</h2>
+							<div class="flex gap-3 justify-center mt-5">
+								<button
+									class="
+										flex
+										items-center
+										px-3
+										py-2
+										mt-2
+										font-medium
+										tracking-wide
+										text-lg text-white
+										capitalize
+										transition-colors
+										duration-200
+										transform
+										bg-gray-600
+										rounded-3xl
+										hover:bg-gray-500
+										focus:outline-none
+									"
+								>
+									<a target="_blank" rel="noopener" href="https://netflixstatistics.levminer.com">Website</a>
+								</button>
+								<button
+									class="
+										flex
+										items-center
+										px-3
+										py-2
+										mt-2
+										text-lg
+										font-medium
+										tracking-wide
+										text-white
+										capitalize
+										transition-colors
+										duration-200
+										transform
+										bg-gray-600
+										rounded-3xl
+										hover:bg-gray-500
+										focus:outline-none
+									"
+								>
+									<a target="_blank" rel="noopener" href="https://github.com/levminer/netflix-statistics">Source</a>
+								</button>
+							</div>
+							<div>
+								<h3 class="flex justify-center pt-10 text-gray-50 text-lg flex-wrap flex-row gap-3">
+									<div class="flex flex-row gap-1">
+										<img src="./assets/img/code.svg" alt="code" /> Technologies: Express, JavaScript
+									</div>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- footer -->
+		<footer class="bg-gray-900">
+			<div class="container px-6 py-4 mx-auto">
+				<div class="w-full flex justify-center mb-5">
+					<h2 class="text-2xl text-gray-100">
+						<a target="_blank" rel="noopener" href="https://www.levminer.com/policies/privacy">Privacy</a> -
+						<a target="_blank" rel="noopener" href="https://www.levminer.com/policies/terms">Terms</a>
+					</h2>
+				</div>
+				<div class="flex">
+					<div class="w-full mb-5">
+						<div class="px-6">
+							<div class="flex justify-center">
+								<a
+									href="https://twitter.com/levminer92"
+									rel="noopener"
+									target="_blank"
+									class="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+									aria-label="Twitter"
+								>
+									<img class="flogo" src="./src/img/twitter.svg" alt="twitter" />
+								</a>
 
-					<a href="mailto:contact@levminer.com">
-						<img id="img" src="./src/img/email.svg" alt="email" />
-					</a>
+								<a
+									href="mailto:authme@levminer.com"
+									rel="noopener"
+									target="_blank"
+									class="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+									aria-label="Mail"
+								>
+									<img class="flogo" src="./src/img/email.svg" alt="email" />
+								</a>
 
-					<a href="https://github.com/Levminer" target="_blank" rel="noopener">
-						<img id="img" src="./src/img/github.svg" alt="github" />
-					</a>
+								<a
+									href="https://github.com/levminer"
+									rel="noopener"
+									target="_blank"
+									class="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
+									aria-label="GitHub"
+								>
+									<img class="flogo" src="./src/img/github.svg" alt="github" />
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<p class="text3">Copyright © 2019-2021 Levminer - Created by: Levminer</p>
-			</footer>
-		</div>
+				<div>
+					<h1 class="text-center text-gray-100 text-2xl">Copyright © 2020-2021 Levminer - Created by: Levminer</h1>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
