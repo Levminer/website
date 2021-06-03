@@ -60,17 +60,9 @@ canvas {
 	z-index: 1;
 }
 
-.type {
-	position: absolute;
-	height: 1vh;
-	width: 1000px;
-	margin: 0 auto;
-	top: 8vh;
-}
-
 .images {
 	position: absolute;
-	top: 19vh;
+	top: 15vh;
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -109,9 +101,5 @@ canvas {
 	.grid {
 		position: relative;
 		left: -280px;
-	}
-
-	.typing {
-		font-size: 5px;
 	}
 }

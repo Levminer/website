@@ -1,11 +1,3 @@
-const oneElement = document.querySelector("#typing")
-
-const text = window.ityped.init(oneElement, {
-	showCursor: false,
-	typeSpeed: 100,
-	strings: ["Welcome", "View my Twitter", "<3", "View my GitHub", "Hi", "Send an Email", "Good to see you", "See my Projects"],
-})
-
 particlesJS("particles", {
 	particles: {
 		number: {

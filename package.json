@@ -2,7 +2,7 @@
 	"name": "website",
 	"version": "1.0.0",
 	"scripts": {
-		"tw": "tailwindcss build tailwind/style.css -o tailwind/tailwind.css"
+		"build:tw": "tailwindcss build tailwind/style.css -o tailwind/tailwind.css"
 	},
 	"author": "Levminer",
 	"license": "MIT",
