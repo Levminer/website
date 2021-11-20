@@ -1,4 +1,5 @@
 module.exports = {
+	mode: "jit",
 	purge: {
 		enabled: true,
 		content: ["./*.html", "./archive/index.html"],
