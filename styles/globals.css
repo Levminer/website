@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	color: white;
+	background-color: rgb(10, 10, 10);
+}
+
+@layer components {
+	.button {
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium text-black duration-200 ease-in hover:bg-transparent hover:text-white focus:outline-none;
+	}
+
+	.buttont {
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-transparent px-4 py-2 text-xl font-medium text-white duration-200 ease-in hover:bg-white hover:text-black focus:outline-none;
+	}
+}
+
+.bg {
+	opacity: 0.8;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-size: 300% 300%;
+	background-image: linear-gradient(-50deg, #277da1 10%, #4d908e 20%, #43aa8b 30%, #90be6d 40%, #faa307 50%, #f48c06 60%, #e85d04 70%, #dc2f02 80%, #d00000 90%, #9d0208 100%);
+	animation: AnimateBG 8s ease infinite;
+}
+
+.page {
+	opacity: 0.8;
+	display: flex;
+	justify-content: center;
+	background-size: 300% 300%;
+	background-image: linear-gradient(-50deg, #277da1 10%, #4d908e 20%, #43aa8b 30%, #90be6d 40%, #faa307 50%, #f48c06 60%, #e85d04 70%, #dc2f02 80%, #d00000 90%, #9d0208 100%);
+	animation: AnimateBG 8s ease infinite;
+}
+
+@keyframes AnimateBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes Hover {
+	0%,
+	100% {
+		bottom: 0;
+	}
+	50% {
+		bottom: 10px;
+	}
+}
+
+.hover {
+	position: relative;
+	animation: Hover 1s linear infinite;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	left: -50px;
+}
+
+#activeLink {
+	animation: colorChange 10s infinite alternate;
+}
+
+.rainbow {
+	animation: colorChange 10s infinite alternate;
+}
+
+@keyframes colorChange {
+	0% {
+		color: #277da1;
+	}
+
+	20% {
+		color: #43aa8b;
+	}
+
+	40% {
+		color: #faa307;
+	}
+
+	60% {
+		color: #f48c06;
+	}
+
+	80% {
+		color: #dc2f02;
+	}
+
+	100% {
+		color: #9d0208;
+	}
+}
+
+:root {
+	color-scheme: dark;
+}
+
+* {
+	scroll-behavior: smooth;
+	outline: none !important;
+}
+
+.animation {
+	animation: fadeEffect 0.25s ease-in;
+}
+
+@keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.glass {
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	border-radius: 10px;
+}
+
+.bg0 {
+	background: #b92b27; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1565c0, #b92b27); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1565c0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg1 {
+	background: #67b26f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4ca2cd, #67b26f); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4ca2cd, #67b26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

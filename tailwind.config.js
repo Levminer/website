@@ -1,9 +1,5 @@
 module.exports = {
-	mode: "jit",
-	purge: {
-		enabled: true,
-		content: ["./*.html", "./archive/index.html"],
-	},
+	content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
 			inset: {
@@ -22,4 +18,5 @@ module.exports = {
 			},
 		},
 	},
+	plugins: [],
 }
