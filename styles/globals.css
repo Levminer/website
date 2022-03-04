@@ -144,3 +144,24 @@ body {
 	background: -webkit-linear-gradient(to right, #4ca2cd, #67b26f); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #4ca2cd, #67b26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.h1 {
+	font-size: 48px !important;
+	font-weight: bold;
+	margin: 2rem;
+}
+
+.h2 {
+	font-size: 32px !important;
+	font-weight: bold;
+	margin: 2rem;
+}
+
+.h3 {
+	font-size: 24px;
+	margin: 2rem;
+}
+
+.link {
+	text-decoration: underline !important;
+}
