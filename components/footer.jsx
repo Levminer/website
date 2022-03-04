@@ -1,15 +1,21 @@
+import Link from "next/link"
+
 const Footer = () => {
 	return (
 		<>
 			<footer className="bg-gray-900">
 				<div className="mx-auto p-6">
 					<div className="mb-3 flex w-full items-center justify-center gap-3">
-						<a className="text-2xl duration-200 ease-in hover:text-gray-300" target="_blank" rel="noopener" href="https://www.levminer.com/policies/privacy">
-							Privacy
-						</a>
-						<a className="text-2xl duration-200 ease-in hover:text-gray-300" target="_blank" rel="noopener" href="https://www.levminer.com/policies/terms">
-							Terms
-						</a>
+						<Link href="/policies/privacy">
+							<a className="text-2xl duration-200 ease-in hover:text-gray-300" target="_blank">
+								Privacy
+							</a>
+						</Link>
+						<Link href="/policies/terms">
+							<a className="text-2xl duration-200 ease-in hover:text-gray-300" target="_blank">
+								Terms
+							</a>
+						</Link>
 					</div>
 					<div className="flex">
 						<div className="mb-3 w-full">
