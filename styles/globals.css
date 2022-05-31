@@ -4,7 +4,6 @@
 
 body {
 	color: white;
-	background-color: rgb(10, 10, 10);
 }
 
 @layer components {
@@ -24,7 +23,7 @@ body {
 	display: flex;
 	justify-content: center;
 	background-size: 300% 300%;
-	background-image: linear-gradient(-50deg, #277da1 10%, #4d908e 20%, #43aa8b 30%, #90be6d 40%, #faa307 50%, #f48c06 60%, #e85d04 70%, #dc2f02 80%, #d00000 90%, #9d0208 100%);
+	background-image: linear-gradient(-50deg, #133d50 10%, #317775 20%, #317963 30%, #5e8540 40%, #c98303 50%, #bb6b03 60%, #c54c01 70%, #dc2f02 80%, #720000 90%, #6e0407 100%);
 	animation: AnimateBG 8s ease infinite;
 }
 
@@ -33,7 +32,7 @@ body {
 	display: flex;
 	justify-content: center;
 	background-size: 300% 300%;
-	background-image: linear-gradient(-50deg, #277da1 10%, #4d908e 20%, #43aa8b 30%, #90be6d 40%, #faa307 50%, #f48c06 60%, #e85d04 70%, #dc2f02 80%, #d00000 90%, #9d0208 100%);
+	background-image: linear-gradient(-50deg, #133d50 10%, #317775 20%, #317963 30%, #5e8540 40%, #c98303 50%, #bb6b03 60%, #c54c01 70%, #dc2f02 80%, #720000 90%, #6e0407 100%);
 	animation: AnimateBG 8s ease infinite;
 }
 
@@ -145,6 +144,11 @@ body {
 	background: linear-gradient(to right, #4ca2cd, #67b26f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bg3 {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(31, 0, 57, 1) 100%);
+}
+
 .h1 {
 	font-size: 48px !important;
 	font-weight: bold;
@@ -165,3 +169,9 @@ body {
 .link {
 	text-decoration: underline !important;
 }
+
+header {
+	background-color: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(20px) saturate(180%);
+}
+

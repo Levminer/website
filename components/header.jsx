@@ -6,8 +6,8 @@ const Header = () => {
 
 	return (
 		<>
-			<header className="sticky top-0 z-50 bg-gray-900 text-gray-50">
-				<div className="lex-shrink-0 container mx-auto flex flex-col flex-wrap items-center p-5 md:flex-row">
+			<header className="sticky top-0 z-50 text-gray-50">
+				<div className="container mx-auto flex flex-shrink-0 flex-col flex-wrap items-center p-5 md:flex-row">
 					<span className="title-font mb-4 flex items-center font-medium text-white md:mb-0">
 						<span>
 							<Link href="/">
@@ -37,22 +37,17 @@ const Header = () => {
 									</a>
 								</li>
 								<li>
-									<a className="block whitespace-nowrap py-2 px-8 duration-200 ease-in hover:bg-gray-600" target="_blank" href="https://developer.levminer.com" rel="noopener">
-										Developer
-									</a>
-								</li>
-								<li>
 									<a className="block whitespace-nowrap rounded-b-lg py-2 px-8 duration-200 ease-in hover:bg-gray-600" target="_blank" href="https://games.levminer.com" rel="noopener">
 										Games
 									</a>
 								</li>
 							</ul>
 						</div>
-						<Link href="/about">
-							<a className="mr-5 text-2xl duration-200 ease-in hover:text-gray-300" id={router.pathname == "/about" ? "activeLink" : ""}>
-								About
+						{/* <Link href="/blog">
+							<a className="mr-5 text-2xl duration-200 ease-in hover:text-gray-300" id={router.pathname == "/blog" ? "activeLink" : ""}>
+								Blog
 							</a>
-						</Link>
+						</Link> */}
 					</nav>
 					<button className="button mt-5 md:mt-0">
 						<a target="_blank" rel="noopener" href="mailto:contact@levminer.com">
