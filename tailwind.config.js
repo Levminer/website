@@ -13,10 +13,12 @@ module.exports = {
 					900: "#000000",
 				},
 			},
-			fontFamily: {
-				sans: ["Arial", "Helvetica", "sans-serif"],
+
+			screens: {
+				small: { max: "800px" },
 			},
 		},
 	},
 	plugins: [],
 }
+

@@ -44,7 +44,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div>
-						<h3 className="text-center text-2xl">Copyright © 2022 Lőrik Levente</h3>
+						<h1 className="text-center text-2xl">Copyright © 2022 Lőrik Levente</h1>
 					</div>
 				</div>
 			</footer>
