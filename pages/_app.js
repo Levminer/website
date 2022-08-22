@@ -13,10 +13,10 @@ const App = ({ Component, pageProps }) => {
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-				<meta property="og:title" content="Levminer's website - Web apps, desktop apps , technical blog" key="ogTitle" />
-				<meta property="og:image" content="https://www.levminer.com/og.png" />
+				<meta property="og:title" content="Levminer's website - Web apps, desktop apps amd a technical blog" key="ogTitle" />
+				<meta property="og:image" content="https://www.levminer.com/og.png" key="ogImage" />
 				<meta property="og:type" content="website" key="ogType" />
-				<meta property="og:description" content="Levminer's website - Websites and Desktop apps" key="ogDescription" />
+				<meta property="og:description" content="Levminer's website - Web apps, desktop apps amd a technical blog" key="ogDescription" />
 				<meta property="og:locale" content="en_US" />
 			</Head>
 			<Header />

@@ -26,6 +26,11 @@ const Header = () => {
 								Projects
 							</a>
 						</Link>
+						<Link href="/blog">
+							<a className="mr-5 text-2xl duration-200 ease-in hover:text-gray-300" id={router.pathname == "/blog" ? "activeLink" : ""}>
+								Blog
+							</a>
+						</Link>
 						<div className="dropdown relative">
 							<button className="mr-5 text-2xl">
 								<h1 className="mr-1 duration-200 ease-in hover:text-gray-300">More</h1>
@@ -43,11 +48,6 @@ const Header = () => {
 								</li>
 							</ul>
 						</div>
-						{/* <Link href="/blog">
-							<a className="mr-5 text-2xl duration-200 ease-in hover:text-gray-300" id={router.pathname == "/blog" ? "activeLink" : ""}>
-								Blog
-							</a>
-						</Link> */}
 					</nav>
 					<button className="button mt-5 md:mt-0">
 						<a target="_blank" rel="noopener" href="mailto:contact@levminer.com">
