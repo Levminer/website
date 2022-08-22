@@ -12,6 +12,14 @@ module.exports = {
 					800: "#0a0a0a",
 					900: "#000000",
 				},
+
+				popup: {
+					red: "#CC001B",
+					green: "#28A443",
+					blue: "#16A3DF",
+					yellow: "#F5AB00",
+					magenta: "#9B5094",
+				},
 			},
 
 			screens: {

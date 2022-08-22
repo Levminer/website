@@ -15,7 +15,7 @@ What is Electron?
 
 App architecture
 
-The Electron app is written in plain-old HTML and JavaScript. For styling I'm using TailwindCSS and a costume stylesheet.
+The Electron app is written in plain-old HTML and JavaScript. For styling I'm using TailwindCSS and some custom CSS.
 
 ### Tauri app architecture
 
@@ -108,8 +108,7 @@ Tauri is very secure by default, on the other hand I can't say the same about El
 > ![Auto update comic](https://imgs.xkcd.com/comics/update.png) xkcd.com
 
 Shipping an app without auto update in 2022 is a no go. If your user has to manually download every update I don't think they are going to be happy.
-Both Electron and Tauri has a built-in auto updater, but the Tauri one is so much simpler.
-So the winner is Tauri here.
+Both Electron and Tauri has a built-in auto updater, but the Tauri one is so much simpler. In Electron I think most people use [electron-updater](https://www.npmjs.com/package/electron-updater). In Tauri you can use the [built in](https://tauri.app/v1/guides/distribution/updater) one, the one downside is you have to maintain your own [update server](https://github.com/KilleenCode/tauri-update-cloudflare). Electron updater pulls the binaries form GitHub releases, which is way more convenient.
 
 ### 8. Developer experience
 
@@ -117,6 +116,6 @@ In Tauri you get the whole package just by installing the Tauri CLI: Hot reload,
 
 ### Summary
 
-Electron is being replaced? Yes, Tauri is way better, but it still misses a lot. In a couple of years I'm sure the Tauri team will catch app to Electron.
+Electron is being replaced? Yes, Tauri is way better, but it still misses a lot. In a couple of years I'm sure the Tauri team will catch app to Electron. The things I'm exited for: Deno as the backend, better auto update and iOS/Android support.
 
 Thanks for reading my first article! I'm not a native english speaker, so sorry for mistakes.

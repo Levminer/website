@@ -133,6 +133,13 @@ body {
 	border-radius: 10px;
 }
 
+@media (max-width: 640px) {
+	header {
+		background-color: rgba(0, 0, 0);
+		backdrop-filter: unset;
+	}
+}
+
 .bg0 {
 	background: #b92b27; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #1565c0, #b92b27); /* Chrome 10-25, Safari 5.1-6 */
