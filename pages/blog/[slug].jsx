@@ -25,7 +25,7 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 								<img src={cover_image} className="rounded-xl bg-gray-700 p-1" alt="cover" />
 							</div>
 							<h2 className="title-font my-6 text-3xl font-medium sm:text-5xl">{title}</h2>
-							<span className="text-popup-red mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{date}</span>
+							<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{date}</span>
 							<div className="prose prose-invert lg:prose-xl">
 								<div dangerouslySetInnerHTML={{ __html: md.render(content) }}></div>
 							</div>

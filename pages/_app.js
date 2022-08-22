@@ -1,7 +1,8 @@
 import Head from "next/head"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import "../styles/globals.css"
+import "../styles/index.css"
+import "../styles/code.css"
 
 const App = ({ Component, pageProps }) => {
 	return (
@@ -9,7 +10,7 @@ const App = ({ Component, pageProps }) => {
 			<Head>
 				<title>Levminer</title>
 				<meta charSet="UTF-8" />
-				<meta name="description" content="Levminer's website - Websites and Desktop apps" />
+				<meta name="description" content="Levminer's website - Web apps, desktop apps amd a technical blog" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />

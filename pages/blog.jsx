@@ -24,12 +24,12 @@ export default function Home({ posts }) {
 									<div>
 										<img src={post.frontmatter.cover_image} className="rounded-xl bg-gray-700 p-1" alt="cover" />
 									</div>
-									<h2 className="title-font my-4 text-3xl font-medium sm:text-5xl">{post.frontmatter.title}</h2>
-									<span className="text-popup-red mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{post.frontmatter.date}</span>
+									<h2 className="title-font my-6 text-3xl font-medium sm:text-5xl">{post.frontmatter.title}</h2>
+									<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{post.frontmatter.date}</span>
 									<div className="prose prose-invert lg:prose-xl">{post.frontmatter.excerpt}</div>
 									<div className="mt-5">
 										<Link href={`/blog/${post.slug}`}>
-											<a className="button">Read More</a>
+											<a className="button">Read post</a>
 										</Link>
 									</div>
 								</div>

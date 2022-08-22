@@ -47,6 +47,12 @@ const Home = () => {
 	useEffect(() => {
 		authmeDownloads()
 		authmeStars()
+
+		document.querySelector("html").classList.add("scroll-smooth")
+
+		return () => {
+			document.querySelector("html").classList.remove("scroll-smooth")
+		}
 	}, [])
 
 	return (
@@ -70,7 +76,7 @@ const Home = () => {
 							</a>
 						</div>
 						<div className="mt-40 flex justify-center">
-							<a href="#desktop" className="hover" aria-label="Go down">
+							<a href="#desktop" className="animate-bounce" aria-label="Go down">
 								<svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
 								</svg>
@@ -80,7 +86,7 @@ const Home = () => {
 				</div>
 			</section>
 			{/*  desktop projects */}
-			<section id="desktop" className="bg0 mx-auto flex flex-col flex-wrap pb-32">
+			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800 pb-32">
 				<h3 className="my-24 text-center text-5xl">Desktop projects</h3>
 
 				{/* <!-- authme card --> */}
@@ -126,7 +132,7 @@ const Home = () => {
 				</div>
 			</section>
 			{/* more desktop projects */}
-			<section id="desktop" className="bg0 mx-auto flex flex-col flex-wrap pb-32">
+			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800 pb-32">
 				<div className="flex flex-row flex-wrap gap-3">
 					{/* <!-- screentime card --> */}
 					<div className="glass mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
@@ -190,7 +196,7 @@ const Home = () => {
 				</div>
 			</section>
 			{/* <!-- web --> */}
-			<section id="web" className="bg1 flex flex-col flex-wrap pb-32">
+			<section id="web" className="flex flex-col flex-wrap bg-gradient-to-r from-cyan-600 to-emerald-500 pb-32">
 				<h3 className="my-24 text-center text-5xl">Web projects</h3>
 
 				<div className="flex flex-row flex-wrap gap-3">
