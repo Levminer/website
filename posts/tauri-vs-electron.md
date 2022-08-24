@@ -85,11 +85,11 @@ Tauri
 Electron
 ![Electron](https://cdn.levminer.com/blog/tauri-vs-electron/electron-linux.png)
 
-Wow, thats a big win for Tauri!
+Wow, that's a big win for Tauri!
 
 ## 4. App backend
 
-Now here comes one of the disadvantages of Tauri (or its biggest advantage, I guess it depends on you). In your Electron app you write your app backend in JavaScript, because Electron uses the Node.js runtime. Tauri on the other hand is written in Rust. Now if you know Rust your probably happy, but if you have to learn Rust from scratch (like me) you are going to face some issues.
+Now here comes one of the disadvantages of Tauri (or its biggest advantage, I guess it depends on you). In your Electron app you write your app backend in JavaScript, because Electron uses the Node.js runtime. Tauri on the other hand is written in Rust. Now if you know Rust you're probably happy, but if you have to learn Rust from scratch (like me) you are going to face some issues.
 
 You have to rewrite your app's backend in Rust, so I think the winner in Electron here. For now. Alternative bindings for your backend are on Tauri's roadmap, like Python, C++, or Deno. Personally I'm excited for the Deno integration so I can write my app backend in JavaScript/TypeScript again.
 
@@ -118,4 +118,4 @@ In Tauri you get the whole package just by installing the Tauri CLI: Hot reload,
 
 Electron is being replaced? Yes, Tauri is way better, but it still misses a lot. In a couple of years I'm sure the Tauri team will catch app to Electron. The things I'm excited for: Deno as the backend, better auto update and iOS/Android support.
 
-Thanks for reading my first article! I'm not a native english speaker, I'm sorry for any mistakes.
+Thanks for reading my first article! I'm not a native English speaker, I'm sorry for any mistakes.
