@@ -22,7 +22,7 @@ export default function Home({ posts }) {
 							<div className="flex flex-wrap justify-center gap-10">
 								<div className="flex max-w-md flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl">
 									<div>
-										<img src={post.frontmatter.cover_image} className="rounded-xl bg-gray-700 p-1" alt="cover" />
+										<img loading="lazy" width="800px" height="400px" src={post.frontmatter.cover_image} className="rounded-xl bg-gray-700 p-1 aspect-video" alt="cover" />
 									</div>
 									<h2 className="title-font my-6 text-3xl font-medium sm:text-5xl">{post.frontmatter.title}</h2>
 									<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{post.frontmatter.date}</span>

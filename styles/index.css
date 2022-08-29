@@ -4,11 +4,11 @@
 
 @layer components {
 	.button {
-		@apply flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium text-black duration-200 ease-in hover:bg-transparent hover:text-white focus:outline-none;
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium text-black outline-none duration-200 ease-in hover:bg-transparent hover:text-white;
 	}
 
 	.buttont {
-		@apply flex items-center justify-center rounded-full border-2 border-white bg-transparent px-4 py-2 text-xl font-medium text-white duration-200 ease-in hover:bg-white hover:text-black focus:outline-none;
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-transparent px-4 py-2 text-xl font-medium text-white outline-none duration-200 ease-in hover:bg-white hover:text-black;
 	}
 }
 
@@ -100,3 +100,20 @@ img {
 .link {
 	text-decoration: underline !important;
 }
+
+pre {
+	white-space: normal !important;
+	background-color: rgb(20, 20, 20) !important;
+}
+
+code {
+	background-color: rgb(20, 20, 20) !important;
+	padding: 0.3rem;
+	border-radius: 10px;
+}
+
+code::before,
+code::after {
+	content: "" !important;
+}
+

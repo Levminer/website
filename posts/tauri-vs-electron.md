@@ -5,7 +5,7 @@ excerpt: "Comparing Electron and Tauri - With a real world app"
 cover_image: "https://cdn.levminer.com/blog/tauri-vs-electron/tauri-vs-electron.png"
 ---
 
-In this article I'm going to compare Electron and Tauri using a real world app: [Authme](https://authme.levminer.com). Authme is a Simple cross-platform two-factor authenticator app for desktop. It's not a big app and not very complex, perfect for a little comparison. You can take a look at the source code of the Electron app on [GitHub](https://github.com/Levminer/authme) and the Tauri app is also on [GitHub](https://github.com/Levminer/authme-v4). My goal it that the Tauri app eventually replaces the Electron one.
+In this article I'm going to compare Electron and Tauri using a real world app: [Authme](https://authme.levminer.com). Authme is a Simple cross-platform two-factor authenticator app for desktop. It's not a big app and not very complex, perfect for a little comparison. You can take a look at the source code of the Electron app on [GitHub](https://github.com/Levminer/authme) and the Tauri app is also on [GitHub](https://github.com/Levminer/authme-v4). My goal is that the Tauri app eventually replaces the Electron one.
 
 ## Electron app architecture
 
@@ -77,7 +77,7 @@ Electron (Windows)
 | ------- | --- | ------- | -- |
 | Idle | 1% | ~ 120MB | 0% |
 
-Honestly I expected more from Tauri, sure it uses less RAM, but not by much. Let's take a look at what's up on the Linux side.
+Honestly, I expected more from Tauri, sure it uses less RAM, but not by much. Let's take a look at what's up on the Linux side.
 
 Tauri
 ![Tauri](https://cdn.levminer.com/blog/tauri-vs-electron/tauri-linux.png)

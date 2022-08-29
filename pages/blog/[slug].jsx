@@ -15,17 +15,17 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 				<meta property="og:title" content={title} key="ogTitle" />
 				<meta property="og:description" content={excerpt} key="ogDescription" />
 				<meta property="og:type" content="article" key="ogType" />
-				<meta property="og:image" content="https://cdn.levminer.com/blog/tauri-vs-electron/tauri-vs-electron.png" key="ogImage" />
+				<meta property="og:image" content={cover_image} key="ogImage" />
 			</Head>
 			<article className="bg-gradient-to-r from-indigo-900 to-sky-900">
-				<div className="container mx-auto px-5 py-24">
-					<div className="flex flex-wrap justify-center gap-10">
-						<div className="flex max-w-md flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl">
+				<div className="container mx-auto py-32">
+					<div className="flex flex-wrap justify-center">
+						<div className="flex flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl small:!w-full">
 							<div>
 								<img src={cover_image} className="rounded-xl bg-gray-700 p-1" alt="cover" />
 							</div>
 							<h2 className="title-font my-6 text-3xl font-medium sm:text-5xl">{title}</h2>
-							<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{date}</span>
+							<span className="text-popup-blue mb-6 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{date}</span>
 							<div className="prose prose-invert lg:prose-xl">
 								<div dangerouslySetInnerHTML={{ __html: md.render(content) }}></div>
 							</div>
