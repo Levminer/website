@@ -1,6 +1,7 @@
 import Head from "next/head"
 import axios from "axios"
 import { useEffect } from "react"
+import AppShowcase from "../components/appShowcase"
 
 const Home = () => {
 	const authmeDownloads = async () => {
@@ -60,6 +61,7 @@ const Home = () => {
 			<Head>
 				<title>Projects</title>
 			</Head>
+
 			{/* hero */}
 			<section className="bg">
 				<div className="hero container mx-auto -mt-12 flex flex-col items-center justify-center py-72">
@@ -85,7 +87,8 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			{/*  desktop projects */}
+
+			{/* highlighted desktop projects */}
 			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800 pb-32">
 				<h3 className="my-24 text-center text-5xl">Desktop projects</h3>
 
@@ -99,10 +102,10 @@ const Home = () => {
 						<h1 className="text-4xl font-bold ">Authme</h1>
 						<h2 className="mt-3 text-center text-2xl text-gray-200">Simple cross platform two-factor authentication app for desktop.</h2>
 						<div className="mt-6 flex justify-center gap-3">
-							<a className="button" target="_blank" rel="noopener" href="https://authme.levminer.com/">
+							<a className="button" target="_blank" rel="noopener noreferrer" href="https://authme.levminer.com/">
 								Download
 							</a>
-							<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/authme">
+							<a className="button" target="_blank" rel="noopener noreferrer" href="https://github.com/levminer/authme">
 								Source
 							</a>
 						</div>
@@ -118,7 +121,7 @@ const Home = () => {
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
 										<path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
 									</svg>
-									Technologies: Tauri, TypeScript
+									Technologies: Rust, TypeScript
 								</div>
 								<div className="flex flex-row gap-1">
 									<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
@@ -131,133 +134,56 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			{/* more desktop projects */}
+
+			{/* desktop projects */}
 			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800 pb-32">
 				<div className="flex flex-row flex-wrap gap-3">
-					{/* <!-- screentime card --> */}
-					<div className="glass mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
-						<div className="rounded-xl bg-white p-2">
-							<img loading="lazy" className="rounded" src="screentime.jpg" alt="screentime" />
-						</div>
+					{/* prettier-ignore*/}
+					<AppShowcase 
+						img={"screentime.jpg"} 
+						title={"Screentime"} 
+						description={"Track how much time you spend on your computer."} 
+						website={"https://github.com/levminer/screentime/releases"} 
+						source={"https://github.com/levminer/screentime"}
+						technologies={"Electron, TypeScript"}
+					/>
 
-						<div className="mx-auto flex flex-col justify-center pt-6 text-center">
-							<h1 className="text-4xl font-bold ">Screentime</h1>
-							<h2 className="mt-3 text-center text-2xl text-gray-200">Track how much time you spend on your computer.</h2>
-							<div className="mt-6 flex justify-center gap-3">
-								<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/screentime/releases">
-									Download
-								</a>
-								<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/screentime">
-									Source
-								</a>
-							</div>
-							<div>
-								<h3 className="flex flex-row flex-wrap items-center justify-center gap-3 pt-8 text-lg text-gray-50">
-									<div className="flex flex-row gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-											<path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-										</svg>
-										Technologies: Electron, TypeScript
-									</div>
-								</h3>
-							</div>
-						</div>
-					</div>
-
-					{/* <!-- authme lite card --> */}
-					<div className="glass mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
-						<div className="rounded-xl bg-white p-2">
-							<img loading="lazy" className="rounded" src="authmelite.jpg" alt="authme lite" />
-						</div>
-
-						<div className="mx-auto flex flex-col justify-center pt-6 text-center">
-							<h1 className="text-4xl font-bold ">Authme Lite</h1>
-							<h2 className="mt-3 text-center text-2xl text-gray-200">A lite and simple two-factor authentication app for desktop.</h2>
-							<div className="mt-6 flex justify-center gap-3">
-								<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/authme-lite/releases">
-									Download
-								</a>
-								<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/authme-lite">
-									Source
-								</a>
-							</div>
-							<div>
-								<h3 className="flex flex-row flex-wrap items-center justify-center gap-3 pt-8 text-lg text-gray-50">
-									<div className="flex flex-row gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-											<path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-										</svg>
-										Technologies: Tauri, JavaScript
-									</div>
-								</h3>
-							</div>
-						</div>
-					</div>
+					{/* prettier-ignore*/}
+					<AppShowcase 
+						img={"https://github.com/Levminer/cores/blob/dev/screenshots/home.png?raw=true"} 
+						title={"Cores"} 
+						description={"Hardware monitor."} 
+						website={"https://cores.levminer.com"} 
+						source={"https://github.com/levminer/cores"}
+						technologies={"C#, TypeScript"}
+					/>
 				</div>
 			</section>
-			{/* <!-- web --> */}
+
+			{/* web projects */}
 			<section id="web" className="flex flex-col flex-wrap bg-gradient-to-r from-cyan-600 to-emerald-500 pb-32">
 				<h3 className="my-24 text-center text-5xl">Web projects</h3>
 
 				<div className="flex flex-row flex-wrap gap-3">
-					{/* <!-- netflix statistics --> */}
-					<div className="glass mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
-						<div className="rounded-xl bg-white p-2">
-							<img loading="lazy" className="rounded" src="ns.jpg" alt="authme" />
-						</div>
+					{/* prettier-ignore*/}
+					<AppShowcase 
+						img={"ns.jpg"} 
+						title={"Netflix Statistics"} 
+						description={"View how much time you spent in your life watching Netflix."} 
+						website={"https://netflixstatistics.levminer.com"} 
+						source={"https://github.com/levminer/netflix-statistics"}
+						technologies={"React, TypeScript"}
+					/>
 
-						<div className="mx-auto flex flex-col justify-center pt-6 text-center">
-							<h1 className="text-4xl font-bold ">Netflix Statistics</h1>
-							<h2 className="mt-3 text-center text-2xl text-gray-200">If you want to know how much time you spent in your life watching Netflix!</h2>
-							<div className="mt-6 flex justify-center gap-3">
-								<a className="button" target="_blank" rel="noopener" href="https://netflixstatistics.levminer.com/">
-									Website
-								</a>
-								<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/netflix-statistics">
-									Source
-								</a>
-							</div>
-							<div>
-								<h3 className="flex flex-row flex-wrap justify-center gap-3 pt-8 text-lg text-gray-50">
-									<div className="flex flex-row gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-											<path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-										</svg>
-										Technologies: React, TypeScript
-									</div>
-								</h3>
-							</div>
-						</div>
-					</div>
-					{/* <!-- authme web --> */}
-					<div className="glass mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
-						<div className="rounded-xl bg-white p-2">
-							<img loading="lazy" className="rounded" src="authmeweb.jpg" alt="authme" />
-						</div>
-
-						<div className="mx-auto flex flex-col justify-center pt-6 text-center">
-							<h1 className="text-4xl font-bold ">Authme Web</h1>
-							<h2 className="mt-3 text-center text-2xl text-gray-200">Web app for Authme the cross-platform two-factor authentication app.</h2>
-							<div className="mt-6 flex justify-center gap-3">
-								<a className="button" target="_blank" rel="noopener" href="https://web.authme.levminer.com/">
-									Website
-								</a>
-								<a className="button" target="_blank" rel="noopener" href="https://github.com/levminer/authme-web">
-									Source
-								</a>
-							</div>
-							<div>
-								<h3 className="flex flex-row flex-wrap justify-center gap-3 pt-8 text-lg text-gray-50">
-									<div className="flex flex-row gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-											<path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-										</svg>
-										Technologies: Vue.js, JavaScript
-									</div>
-								</h3>
-							</div>
-						</div>
-					</div>
+					{/* prettier-ignore*/}
+					<AppShowcase 
+						img={"authmeweb.jpg"} 
+						title={"Authme Web"} 
+						description={"Web app for Authme the cross-platform two-factor authentication app."} 
+						website={"https://web.authme.levminer.com"} 
+						source={"https://github.com/levminer/authme-web"}
+						technologies={"Vue.js, JavaScript"}
+					/>
 				</div>
 			</section>
 		</>
