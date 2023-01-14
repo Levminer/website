@@ -10,11 +10,11 @@ const Error404 = () => {
 						<p className="mb-4 text-4xl">The page you're looking for isn't here.</p>
 						<p className="mb-4 text-2xl">You might have the wrong address, or the page may have moved.</p>
 						<div className="flex items-center justify-center gap-5">
-							<Link href="/">
-								<a className="button">Home</a>
+							<Link className="button" href="/">
+								Home
 							</Link>
 
-							<a className="button" target="_blank" href="https://status.levminer.com">
+							<a className="button" rel="noreferrer" target="_blank" href="https://status.levminer.com">
 								Status
 							</a>
 						</div>
