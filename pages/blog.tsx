@@ -5,6 +5,7 @@ import Head from "next/head"
 import Link from "next/link"
 
 export const sortByDate = (a, b) => {
+	// @ts-ignore
 	return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
 }
 
