@@ -2,9 +2,6 @@ module.exports = {
 	content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
-			inset: {
-				"-30": "-1.875rem",
-			},
 			colors: {
 				gray: {
 					600: "#1E1E1E",
@@ -27,6 +24,11 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("@tailwindcss/typography")],
+	plugins: [require("@tailwindcss/typography"), require("daisyui")],
+	daisyui: {
+		base: false,
+		themes: [],
+		utils: false,
+	},
 }
 
