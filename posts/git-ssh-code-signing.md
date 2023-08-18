@@ -17,7 +17,7 @@ You can impersonate **anyone** with Git, by design. For example:
 git -c user.name='Linus Torvalds' -c user.email='torvalds@linux-foundation.org' commit -m "hi"
 ```
 
-Now if you commit something on GitHub it will show up as something Linux Torvalds committed. Check out this [article](https://dev.to/martiliones/how-i-got-linus-torvalds-in-my-contributors-on-github-3k4g) for more information on this topic. Why is this not dangerous? Because of code signing, if you sign your code others can be 100% sure it was you.
+Now if you commit something on GitHub it will show up as something Linus Torvalds committed. Check out this [article](https://dev.to/martiliones/how-i-got-linus-torvalds-in-my-contributors-on-github-3k4g) for more information on this topic. Why is this not dangerous? Because of code signing, if you sign your code others can be 100% sure it was you.
 
 ## Why SSH over GPG?
 

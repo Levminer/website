@@ -4,11 +4,11 @@
 
 @layer components {
 	.button {
-		@apply btn normal-case hover:border-white flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium text-black outline-none duration-200 ease-in hover:bg-transparent hover:text-white;
+		@apply btn flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium normal-case text-black outline-none duration-200 ease-in hover:border-white hover:bg-transparent hover:text-white;
 	}
 
 	.buttont {
-		@apply btn normal-case flex items-center justify-center rounded-full border-2 hover:border-white border-white bg-transparent px-4 py-2 text-xl font-medium text-white outline-none duration-200 ease-in hover:bg-white hover:text-black;
+		@apply btn flex items-center justify-center rounded-full border-2 border-white bg-transparent px-4 py-2 text-xl font-medium normal-case text-white outline-none duration-200 ease-in hover:border-white hover:bg-white hover:text-black;
 	}
 }
 
@@ -29,7 +29,19 @@ body {
 	display: flex;
 	justify-content: center;
 	background-size: 300% 300%;
-	background-image: linear-gradient(-50deg, #133d50 10%, #317775 20%, #317963 30%, #5e8540 40%, #c98303 50%, #bb6b03 60%, #c54c01 70%, #dc2f02 80%, #720000 90%, #6e0407 100%);
+	background-image: linear-gradient(
+		-50deg,
+		#133d50 10%,
+		#317775 20%,
+		#317963 30%,
+		#5e8540 40%,
+		#c98303 50%,
+		#bb6b03 60%,
+		#c54c01 70%,
+		#dc2f02 80%,
+		#720000 90%,
+		#6e0407 100%
+	);
 	animation: AnimateBG 8s ease infinite;
 }
 
