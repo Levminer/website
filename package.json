@@ -9,25 +9,24 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"axios": "^0.26.0",
 		"daisyui": "^2.51.1",
 		"gray-matter": "^4.0.3",
-		"markdown-it": "^13.0.1",
+		"markdown-it": "^13.0.2",
 		"markdown-it-highlightjs": "^4.0.1",
 		"next": "^13.1.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@tailwindcss/typography": "^0.5.4",
-		"@types/node": "18.14.1",
-		"@types/react": "18.0.28",
-		"autoprefixer": "^10.4.13",
-		"eslint": "^8.31.0",
-		"eslint-config-next": "^13.1.2",
-		"postcss": "^8.4.21",
+		"@tailwindcss/typography": "^0.5.10",
+		"@types/node": "^20.8.6",
+		"@types/react": "^18.2.28",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.51.0",
+		"eslint-config-next": "^13.5.4",
+		"postcss": "^8.4.31",
 		"prettier": "^2.8.3",
 		"prettier-plugin-tailwindcss": "^0.1.7",
-		"tailwindcss": "^3.2.4"
+		"tailwindcss": "^3.3.3"
 	}
 }
