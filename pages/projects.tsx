@@ -1,5 +1,4 @@
 import Head from "next/head"
-import axios from "axios"
 import { useEffect } from "react"
 import AppShowcase from "../components/appShowcase"
 
@@ -45,18 +44,39 @@ const Home = () => {
 			</section>
 
 			{/* highlighted desktop projects */}
-			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800 pb-32">
+			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800">
 				<h3 className="my-24 text-center text-5xl">Desktop projects</h3>
 
-				<AppShowcase img={"authme.jpg"} title={"Authme"} description={"Simple cross platform two-factor authentication app for desktop."} website={"https://authme.levminer.com/"} source={"https://github.com/levminer/authme"} technologies={"Rust, TypeScript"} />
+				<AppShowcase
+					img={"https://raw.githubusercontent.com/Levminer/authme/dev/screenshots/codes.png"}
+					title={"Authme"}
+					description={"Simple cross platform two-factor authentication app for desktop."}
+					website={"https://authme.levminer.com/"}
+					source={"https://github.com/levminer/authme"}
+					technologies={"Rust, TypeScript"}
+				/>
 			</section>
 
 			{/* desktop projects */}
 			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-blue-800 to-rose-800 pb-32">
 				<div className="flex flex-row flex-wrap gap-3">
-					<AppShowcase img={"screentime.jpg"} title={"Screentime"} description={"Track how much time you spend on your computer."} website={"https://github.com/levminer/screentime/releases"} source={"https://github.com/levminer/screentime"} technologies={"Electron, TypeScript"} />
+					<AppShowcase
+						img={"https://raw.githubusercontent.com/Levminer/screentime/dev/screenshots/application.png"}
+						title={"Screentime"}
+						description={"Track how much time you spend on your computer."}
+						website={"https://github.com/levminer/screentime/releases"}
+						source={"https://github.com/levminer/screentime"}
+						technologies={"Electron, TypeScript"}
+					/>
 
-					<AppShowcase img={"https://github.com/Levminer/cores/blob/dev/screenshots/home.png?raw=true"} title={"Cores"} description={"Hardware monitor."} website={"https://cores.levminer.com"} source={"https://github.com/levminer/cores"} technologies={"C#, TypeScript"} />
+					<AppShowcase
+						img={"https://raw.githubusercontent.com/Levminer/cores/dev/screenshots/home.png"}
+						title={"Cores"}
+						description={"Hardware monitor."}
+						website={"https://cores.levminer.com"}
+						source={"https://github.com/levminer/cores"}
+						technologies={"C#, TypeScript"}
+					/>
 				</div>
 			</section>
 
@@ -65,24 +85,13 @@ const Home = () => {
 				<h3 className="my-24 text-center text-5xl">Web projects</h3>
 
 				<div className="flex flex-row flex-wrap gap-3">
-					{/* prettier-ignore*/}
-					<AppShowcase 
-						img={"ns.jpg"} 
-						title={"Netflix Statistics"} 
-						description={"View how much time you spent in your life watching Netflix."} 
-						website={"https://netflixstatistics.levminer.com"} 
+					<AppShowcase
+						img={"https://raw.githubusercontent.com/Levminer/netflix-statistics/main/images/en.png"}
+						title={"Netflix Statistics"}
+						description={"View how much time you spent in your life watching Netflix."}
+						website={"https://netflixstatistics.levminer.com"}
 						source={"https://github.com/levminer/netflix-statistics"}
 						technologies={"React, TypeScript"}
-					/>
-
-					{/* prettier-ignore*/}
-					<AppShowcase 
-						img={"authmeweb.jpg"} 
-						title={"Authme Web"} 
-						description={"Web app for Authme the cross-platform two-factor authentication app."} 
-						website={"https://web.authme.levminer.com"} 
-						source={"https://github.com/levminer/authme-web"}
-						technologies={"Vue.js, JavaScript"}
 					/>
 				</div>
 			</section>
@@ -91,4 +100,3 @@ const Home = () => {
 }
 
 export default Home
-
