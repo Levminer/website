@@ -54,3 +54,7 @@ With Authme Sync you could easily sync your 2FA codes between devices without a 
 -   Works inside internal networks and between firewalls.
 
 If you are interested in this feature please fill out [this very short survey](https://tally.so/r/nWzkgj) .
+
+### Download
+
+You can download Authme from [GitHub](https://github.com/Levminer/authme/releases/tag/5.0.1) or from the [website](https://authme.levminer.com/).

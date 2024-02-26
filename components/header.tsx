@@ -24,22 +24,6 @@ const Header = () => {
 						<Link className={`mr-3 rounded-xl p-1 px-2 text-2xl transition duration-200 ease-in hover:translate-y-0.5 hover:text-gray-300 ${router.pathname == "/blog" ? "bg-white p-1 text-black hover:bg-gray-300 hover:!text-black" : ""}`} href="/blog">
 							Blog
 						</Link>
-						<div className="dropdown small:dropdown-end dropdown-hover">
-							<p className="mr-3 cursor-default rounded-xl p-1 px-2 text-2xl transition duration-200 ease-in hover:translate-y-0.5 hover:text-gray-300">More</p>
-
-							<ul className="dropdown-content menu w-52 rounded-xl !bg-gray-700 p-2 shadow">
-								<li>
-									<a className="hover:bg-gray-600" target="_blank" href="https://link.levminer.com/wp" rel="noopener noreferrer">
-										Warriors Pack
-									</a>
-								</li>
-								<li>
-									<a className="hover:bg-gray-600" target="_blank" href="https://games.levminer.com" rel="noopener noreferrer">
-										Games
-									</a>
-								</li>
-							</ul>
-						</div>
 					</nav>
 					<button className="button mt-5 md:mt-0">
 						<a target="_blank" rel="noopener noreferrer" href="mailto:contact@levminer.com">
