@@ -1,0 +1,532 @@
+[
+	{
+		"name": "Alan Wake",
+		"playtime": "10h 20m",
+		"score": "8.7"
+	},
+	{
+		"name": "Alan Wake 2",
+		"playtime": "24h",
+		"score": "9.6"
+	},
+	{
+		"name": "Assassin's Creed Origins",
+		"playtime": "~28h",
+		"score": "9.2"
+	},
+	{
+		"name": "Atomic Heart",
+		"playtime": "17h 11m",
+		"score": "9.2"
+	},
+	{
+		"name": "A Way Out",
+		"playtime": "5h 20m",
+		"score": "8.5"
+	},
+	{
+		"name": "Battlefield 1",
+		"playtime": "5h 50m",
+		"score": "7.3"
+	},
+	{
+		"name": "Battlefield 3",
+		"playtime": "4h 45m",
+		"score": "7.5"
+	},
+	{
+		"name": "Battlefield 4",
+		"playtime": "5h 20m",
+		"score": "3.5"
+	},
+	{
+		"name": "Battlefield V",
+		"playtime": "5h 40m",
+		"score": "7.1"
+	},
+	{
+		"name": "Battlefield Hardline",
+		"playtime": "5h 55m",
+		"score": "9.6"
+	},
+	{
+		"name": "Beyond Two Souls",
+		"playtime": "8h 45m",
+		"score": "9.8"
+	},
+	{
+		"name": "Black Mesa",
+		"playtime": "~15h",
+		"score": "10"
+	},
+	{
+		"name": "Blair Witch",
+		"playtime": "4h 45m",
+		"score": "7.5"
+	},
+	{
+		"name": "Borderlands",
+		"playtime": "12h 10m",
+		"score": "8.0"
+	},
+	{
+		"name": "Borderlands: The Pre-Sequel",
+		"playtime": "7h 5m",
+		"score": "8.2"
+	},
+	{
+		"name": "Borderlands 2",
+		"playtime": "17h 30m",
+		"score": "8.4"
+	},
+	{
+		"name": "Borderlands 3",
+		"playtime": "11h 50m",
+		"score": "8.4"
+	},
+	{
+		"name": "Call of Duty: Black Ops",
+		"playtime": "5h 30m",
+		"score": "9.0"
+	},
+	{
+		"name": "Call of Duty: Black Ops 2",
+		"playtime": "6h 10m",
+		"score": "8.5"
+	},
+	{
+		"name": "Call of Duty: Modern Warfare",
+		"playtime": "6h 05m",
+		"score": "8.9"
+	},
+	{
+		"name": "Call of Duty: Modern Warfare 2",
+		"playtime": "4h 30m",
+		"score": "8.8"
+	},
+	{
+		"name": "Call of Duty: Modern Warfare 3",
+		"playtime": "4h 20m",
+		"score": "8.7"
+	},
+	{
+		"name": "Call of Duty: Ghosts",
+		"playtime": "4h 40m",
+		"score": "9.4"
+	},
+	{
+		"name": "Call of Duty: World At War",
+		"playtime": "7h 15m",
+		"score": "8.4"
+	},
+	{
+		"name": "Call of Duty: Infinite Warfare",
+		"playtime": "7h 20m",
+		"score": "8.8"
+	},
+	{
+		"name": "Call of Duty: Advanced Warfare",
+		"playtime": "6h 55m",
+		"score": "8.6"
+	},
+	{
+		"name": "Call of Duty: Modern Warfare Remastered",
+		"playtime": "5h 45m",
+		"score": "8.9"
+	},
+	{
+		"name": "Call of Duty: Modern Warfare 2 Remastered",
+		"playtime": "6h 20m",
+		"score": "8.8"
+	},
+	{
+		"name": "Control",
+		"playtime": "8h 30m",
+		"score": "9.7"
+	},
+	{
+		"name": "Cyberpunk 2077",
+		"playtime": "16h 50m",
+		"score": "9.4"
+	},
+	{
+		"name": "Deadbolt",
+		"playtime": "(-) (5h 30m)",
+		"score": "9.5"
+	},
+	{
+		"name": "Dead Space",
+		"playtime": "15h 40m",
+		"score": "9.7"
+	},
+	{
+		"name": "Deathloop",
+		"playtime": "15h 30m",
+		"score": "9.4"
+	},
+	{
+		"name": "Dishonored",
+		"playtime": "(-) (7h 05m)",
+		"score": "9.5"
+	},
+	{
+		"name": "Dishonored: The Knife of Dunwall",
+		"playtime": "-",
+		"score": "9.2"
+	},
+	{
+		"name": "Dishonored: The Brigmore Witches",
+		"playtime": "-",
+		"score": "9.0"
+	},
+	{
+		"name": "Dishonored 2",
+		"playtime": "9h 55m",
+		"score": "9.6"
+	},
+	{
+		"name": "Dishonored 2: Death of the Outsider",
+		"playtime": "5h 40m",
+		"score": "9.2"
+	},
+	{
+		"name": "Far Cry 3",
+		"playtime": "(-) (11h 50m)",
+		"score": "10"
+	},
+	{
+		"name": "Far Cry 3 Blood Dragon",
+		"playtime": "2h 50m",
+		"score": "9.2"
+	},
+	{
+		"name": "Far Cry 4",
+		"playtime": "(-) (14h 30m)",
+		"score": "9.6"
+	},
+	{
+		"name": "Far Cry 4: Valley of the Yetis",
+		"playtime": "-",
+		"score": "9.9"
+	},
+	{
+		"name": "Far Cry Primal",
+		"playtime": "(-) (17h 05m)",
+		"score": "10"
+	},
+	{
+		"name": "Far Cry 5",
+		"playtime": "(-) (19h 20m)",
+		"score": "9.9"
+	},
+	{
+		"name": "Far Cry 5: Dead Living Zombies",
+		"playtime": "1h 20m",
+		"score": "9.6"
+	},
+	{
+		"name": "Far Cry 5: Hours of Darkness",
+		"playtime": "2h 10m",
+		"score": "9.8"
+	},
+	{
+		"name": "Far Cry 5: Lost On Mars",
+		"playtime": "3h 55m",
+		"score": "9.2"
+	},
+	{
+		"name": "Far Cry New Dawn",
+		"playtime": "(-) (11h 10m)",
+		"score": "9.2"
+	},
+	{
+		"name": "Far Cry 6",
+		"playtime": "28h 50m",
+		"score": "9.8"
+	},
+	{
+		"name": "Far Cry 6: Vaas: Insanity",
+		"playtime": "2h 30m",
+		"score": "9.4"
+	},
+	{
+		"name": "Firewatch",
+		"playtime": "(-) (3h 20m)",
+		"score": "9.5"
+	},
+	{
+		"name": "Grand Theft Auto V",
+		"playtime": "28h 50m",
+		"score": "10"
+	},
+	{
+		"name": "Hitman",
+		"playtime": "8h 30m",
+		"score": "9.0"
+	},
+	{
+		"name": "It Takes Two",
+		"playtime": "11h 45m",
+		"score": "9.4"
+	},
+	{
+		"name": "Kona",
+		"playtime": "-",
+		"score": "8.8"
+	},
+	{
+		"name": "Heavy Rain",
+		"playtime": "8h 20m",
+		"score": "9.4"
+	},
+	{
+		"name": "Horizon Zero Dawn",
+		"playtime": "28h",
+		"score": "9.8"
+	},
+	{
+		"name": "Horizon Zero Dawn: The Frozen Wilds",
+		"playtime": "7h 10m",
+		"score": "9.8"
+	},
+	{
+		"name": "Metro: Last Light Redux",
+		"playtime": "7h 15m",
+		"score": "8.9"
+	},
+	{
+		"name": "Metro: 2033 Redux",
+		"playtime": "(7h 40m) (-)",
+		"score": "9.0"
+	},
+	{
+		"name": "Metro Exodus",
+		"playtime": "(14h 30m) (-)",
+		"score": "9.8"
+	},
+	{
+		"name": "Metro Exodus: Sam's Story",
+		"playtime": "4h 50m",
+		"score": "9.4"
+	},
+	{
+		"name": "Metro Exodus: The Two Colonels",
+		"playtime": "1h 40m",
+		"score": "9.0"
+	},
+	{
+		"name": "Mirror's Edge",
+		"playtime": "5h 45m",
+		"score": "8.6"
+	},
+	{
+		"name": "Mirror's Edge Catalyst",
+		"playtime": "6h 50m",
+		"score": "9.4"
+	},
+	{
+		"name": "My Friend Pedro",
+		"playtime": "-",
+		"score": "8.8"
+	},
+	{
+		"name": "Observer",
+		"playtime": "5h 10m",
+		"score": "9.4"
+	},
+	{
+		"name": "Outer Worlds",
+		"playtime": "15h 40m",
+		"score": "9.6"
+	},
+	{
+		"name": "Outlast",
+		"playtime": "-",
+		"score": "6.9"
+	},
+	{
+		"name": "Outlast: Whistleblower",
+		"playtime": "-",
+		"score": "7.0"
+	},
+	{
+		"name": "Outlast 2",
+		"playtime": "-",
+		"score": "7.2"
+	},
+	{
+		"name": "Remnant (All DLC)",
+		"playtime": "33h",
+		"score": "9.8"
+	},
+	{
+		"name": "Prey",
+		"playtime": "14h 30m",
+		"score": "9.8"
+	},
+	{
+		"name": "Read Dead Redemption 2",
+		"playtime": "54h",
+		"score": "9.9"
+	},
+	{
+		"name": "Subnautica",
+		"playtime": "(-) (23h 40m)",
+		"score": "9.4"
+	},
+	{
+		"name": "Subnautica Below Zero",
+		"playtime": "23h 15m",
+		"score": "9.8"
+	},
+	{
+		"name": "Superhot",
+		"playtime": "2h 50m",
+		"score": "8.2"
+	},
+	{
+		"name": "The Walking Dead {EP1,EP2,EP3}",
+		"playtime": "{10h 15m} {-} {-}",
+		"score": "8.8"
+	},
+	{
+		"name": "The Long Dark {EP1,EP2,EP3, EP4}",
+		"playtime": "{-} {-} {8h 05m} {5h 50m}",
+		"score": "8.8"
+	},
+	{
+		"name": "This War of Mine",
+		"playtime": "8h 10m",
+		"score": "9.6"
+	},
+	{
+		"name": "Tomb Raider",
+		"playtime": "(-) (7h 40m) (9h 10m)",
+		"score": "9.3"
+	},
+	{
+		"name": "Rise of the Tomb Raider",
+		"playtime": "(14h 15m) (9h 15m)",
+		"score": "9.5"
+	},
+	{
+		"name": "Rise of the Tomb Raider: Baba Yaga",
+		"playtime": "-",
+		"score": "9.0"
+	},
+	{
+		"name": "Shadow of the Tomb Raider",
+		"playtime": "10h 30m (9h 50m)",
+		"score": "9.8"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Forge",
+		"playtime": "1h 05m",
+		"score": "9.4"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Pillar",
+		"playtime": "55m",
+		"score": "9.3"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Nightmare",
+		"playtime": "40m",
+		"score": "9.6"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Price of Survival",
+		"playtime": "1h 25m",
+		"score": "9.2"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Serpent's Heart",
+		"playtime": "55m",
+		"score": "9.7"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Grand Caiman",
+		"playtime": "50m",
+		"score": "9.5"
+	},
+	{
+		"name": "Shadow of the Tomb Raider: The Path Home",
+		"playtime": "50m",
+		"score": "9.8"
+	},
+	{
+		"name": "Resident Evil 2 Remake",
+		"playtime": "9h 40m",
+		"score": "9.4"
+	},
+	{
+		"name": "Resident Evil 7",
+		"playtime": "7h 50m",
+		"score": "8.9"
+	},
+	{
+		"name": "Road 96",
+		"playtime": "7h 15m",
+		"score": "9.3"
+	},
+	{
+		"name": "Watch Dogs",
+		"playtime": "-",
+		"score": "8.8"
+	},
+	{
+		"name": "Watch Dogs: Bad Blood",
+		"playtime": "-",
+		"score": "8.7"
+	},
+	{
+		"name": "Watch Dogs 2",
+		"playtime": "17h 15m",
+		"score": "8.5"
+	},
+	{
+		"name": "The Witcher 3: Wild Hunt",
+		"playtime": "44h 20m",
+		"score": "9.9"
+	},
+	{
+		"name": "Wasteland 3",
+		"playtime": "37h",
+		"score": "9.5"
+	},
+	{
+		"name": "Wolfenstein: The New Order",
+		"playtime": "8h 14m",
+		"score": "9.0"
+	},
+	{
+		"name": "Wolfenstein: The Old Blood",
+		"playtime": "4h 45m",
+		"score": "8.6"
+	},
+	{
+		"name": "Wolfenstein: Youngblood",
+		"playtime": "8h 15m",
+		"score": "9.6"
+	},
+	{
+		"name": "Wolfenstein II: The New Colossus",
+		"playtime": "9h 45m",
+		"score": "9.4"
+	},
+	{
+		"name": "Unravel",
+		"playtime": "8h",
+		"score": "9.0"
+	},
+	{
+		"name": "Unravel 2",
+		"playtime": "4h 50m",
+		"score": "8.8"
+	},
+	{
+		"name": "Zombotron",
+		"playtime": "5h 50m",
+		"score": "8.6"
+	}
+]
