@@ -14,7 +14,7 @@ const AppShowcase = (props: AppShowcaseProps) => {
 		<div className="glass small:bg-gray-700 mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
 			<div className="rounded-xl bg-white p-2">
 				{/* eslint-disable-next-line @next/next/no-img-element */}
-				<img loading="lazy" className="rounded" src={props.img} alt="Project image" />
+				<img loading="lazy" className="rounded" src={props.img} alt={props.title} />
 			</div>
 
 			<div className="mx-auto flex flex-col justify-center pt-6 text-center">

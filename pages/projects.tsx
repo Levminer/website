@@ -70,7 +70,7 @@ const Home = () => {
 					/>
 
 					<AppShowcase
-						img={"https://raw.githubusercontent.com/Levminer/cores/dev/screenshots/home.png"}
+						img={"https://raw.githubusercontent.com/Levminer/cores/dev/.github/screenshots/home.png"}
 						title={"Cores"}
 						description={"Hardware monitor."}
 						website={"https://cores.levminer.com"}
