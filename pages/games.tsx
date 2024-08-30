@@ -8,6 +8,7 @@ interface Game {
 
 const Games = () => {
 	const [data, setData] = useState<Game[]>([])
+	const [initialData, setInitialData] = useState<Game[]>([])
 	const [loading, setLoading] = useState(true)
 	const [dsc, setDsc] = useState(true)
 
@@ -20,7 +21,12 @@ const Games = () => {
 			json.sort((a, b) => a.name.localeCompare(b.name))
 
 			setData(json as Game[])
+			setInitialData(json as Game[])
 			setLoading(false)
+
+			setTimeout(() => {
+				document.getElementById("input")?.focus()
+			}, 100)
 		}
 
 		fetchData()
@@ -66,6 +72,23 @@ const Games = () => {
 
 	return (
 		<div className="min-h-screen bg-[rgb(20,20,20)] py-20">
+			<div className="mx-auto mb-10 flex items-center justify-center">
+				<input
+					id="input"
+					onChange={(e) => {
+						if (e.target.value === "") {
+							setData(initialData)
+						} else {
+							let filtered = initialData.filter((game) => {
+								return game.name.toLowerCase().includes(e.target.value.toLowerCase())
+							})
+							setData(filtered)
+						}
+					}}
+					className="rounded-2xl bg-white px-4 py-2 text-2xl text-black focus-visible:outline-none"
+					type="text"
+				/>
+			</div>
 			<div className="[&>*:nth-child(odd)]:bg-gray-600 mx-auto flex w-[96%] flex-col items-center justify-center rounded-2xl bg-gray-800 md:w-[60%]">
 				<div className="flex w-full flex-row justify-between rounded-t-2xl p-3 text-left">
 					<div className="flex flex-row gap-3">
@@ -89,7 +112,7 @@ const Games = () => {
 						</h3>
 					</div>
 				))}
-				<div>-</div>
+				<div className="w-full text-center">-</div>
 			</div>
 		</div>
 	)
