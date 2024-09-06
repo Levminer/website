@@ -97,12 +97,26 @@
 	{
 		"name": "Call of Duty: Modern Warfare",
 		"playtime": "6h 05m",
-		"score": "8.9"
+		"score": "8.9",
+		"dlc": [
+			{
+				"name": "Call of Duty: Modern Warfare Remastered",
+				"playtime": "5h 45m",
+				"score": "8.9"
+			}
+		]
 	},
 	{
 		"name": "Call of Duty: Modern Warfare 2",
 		"playtime": "4h 30m",
-		"score": "8.8"
+		"score": "8.8",
+		"dlc": [
+			{
+				"name": "Call of Duty: Modern Warfare 2 Remastered",
+				"playtime": "6h 20m",
+				"score": "8.8"
+			}
+		]
 	},
 	{
 		"name": "Call of Duty: Modern Warfare 3",
@@ -130,16 +144,6 @@
 		"score": "8.6"
 	},
 	{
-		"name": "Call of Duty: Modern Warfare Remastered",
-		"playtime": "5h 45m",
-		"score": "8.9"
-	},
-	{
-		"name": "Call of Duty: Modern Warfare 2 Remastered",
-		"playtime": "6h 20m",
-		"score": "8.8"
-	},
-	{
 		"name": "Control",
 		"playtime": "8h 30m",
 		"score": "9.7"
@@ -151,7 +155,7 @@
 	},
 	{
 		"name": "Deadbolt",
-		"playtime": "(-) (5h 30m)",
+		"playtime": "5h 30m",
 		"score": "9.5"
 	},
 	{
@@ -167,27 +171,31 @@
 	{
 		"name": "Dishonored",
 		"playtime": "(-) (7h 05m)",
-		"score": "9.5"
-	},
-	{
-		"name": "Dishonored: The Knife of Dunwall",
-		"playtime": "-",
-		"score": "9.2"
-	},
-	{
-		"name": "Dishonored: The Brigmore Witches",
-		"playtime": "-",
-		"score": "9.0"
+		"score": "9.5",
+		"dlc": [
+			{
+				"name": "Dishonored: The Knife of Dunwall",
+				"playtime": "-",
+				"score": "9.2"
+			},
+			{
+				"name": "Dishonored: The Brigmore Witches",
+				"playtime": "-",
+				"score": "9.0"
+			}
+		]
 	},
 	{
 		"name": "Dishonored 2",
 		"playtime": "9h 55m",
-		"score": "9.6"
-	},
-	{
-		"name": "Dishonored 2: Death of the Outsider",
-		"playtime": "5h 40m",
-		"score": "9.2"
+		"score": "9.6",
+		"dlc": [
+			{
+				"name": "Dishonored 2: Death of the Outsider",
+				"playtime": "5h 40m",
+				"score": "9.2"
+			}
+		]
 	},
 	{
 		"name": "Far Cry 3",
@@ -202,12 +210,14 @@
 	{
 		"name": "Far Cry 4",
 		"playtime": "(-) (14h 30m)",
-		"score": "9.6"
-	},
-	{
-		"name": "Far Cry 4: Valley of the Yetis",
-		"playtime": "-",
-		"score": "9.9"
+		"score": "9.6",
+		"dlc": [
+			{
+				"name": "Far Cry 4: Valley of the Yetis",
+				"playtime": "-",
+				"score": "9.9"
+			}
+		]
 	},
 	{
 		"name": "Far Cry Primal",
@@ -217,22 +227,24 @@
 	{
 		"name": "Far Cry 5",
 		"playtime": "(-) (19h 20m)",
-		"score": "9.9"
-	},
-	{
-		"name": "Far Cry 5: Dead Living Zombies",
-		"playtime": "1h 20m",
-		"score": "9.6"
-	},
-	{
-		"name": "Far Cry 5: Hours of Darkness",
-		"playtime": "2h 10m",
-		"score": "9.8"
-	},
-	{
-		"name": "Far Cry 5: Lost On Mars",
-		"playtime": "3h 55m",
-		"score": "9.2"
+		"score": "9.9",
+		"dlc": [
+			{
+				"name": "Far Cry 5: Dead Living Zombies",
+				"playtime": "1h 20m",
+				"score": "9.6"
+			},
+			{
+				"name": "Far Cry 5: Hours of Darkness",
+				"playtime": "2h 10m",
+				"score": "9.8"
+			},
+			{
+				"name": "Far Cry 5: Lost On Mars",
+				"playtime": "3h 55m",
+				"score": "9.2"
+			}
+		]
 	},
 	{
 		"name": "Far Cry New Dawn",
@@ -242,12 +254,14 @@
 	{
 		"name": "Far Cry 6",
 		"playtime": "28h 50m",
-		"score": "9.8"
-	},
-	{
-		"name": "Far Cry 6: Vaas: Insanity",
-		"playtime": "2h 30m",
-		"score": "9.4"
+		"score": "9.8",
+		"dlc": [
+			{
+				"name": "Far Cry 6: Vaas: Insanity",
+				"playtime": "2h 30m",
+				"score": "9.4"
+			}
+		]
 	},
 	{
 		"name": "Firewatch",
@@ -282,12 +296,14 @@
 	{
 		"name": "Horizon Zero Dawn",
 		"playtime": "28h",
-		"score": "9.8"
-	},
-	{
-		"name": "Horizon Zero Dawn: The Frozen Wilds",
-		"playtime": "7h 10m",
-		"score": "9.8"
+		"score": "9.8",
+		"dlc": [
+			{
+				"name": "Horizon Zero Dawn: The Frozen Wilds",
+				"playtime": "7h 10m",
+				"score": "9.8"
+			}
+		]
 	},
 	{
 		"name": "Metro: Last Light Redux",
@@ -302,17 +318,19 @@
 	{
 		"name": "Metro Exodus",
 		"playtime": "(14h 30m) (-)",
-		"score": "9.8"
-	},
-	{
-		"name": "Metro Exodus: Sam's Story",
-		"playtime": "4h 50m",
-		"score": "9.4"
-	},
-	{
-		"name": "Metro Exodus: The Two Colonels",
-		"playtime": "1h 40m",
-		"score": "9.0"
+		"score": "9.8",
+		"dlc": [
+			{
+				"name": "Metro Exodus: Sam's Story",
+				"playtime": "4h 50m",
+				"score": "9.4"
+			},
+			{
+				"name": "Metro Exodus: The Two Colonels",
+				"playtime": "1h 40m",
+				"score": "9.0"
+			}
+		]
 	},
 	{
 		"name": "Mirror's Edge",
@@ -342,12 +360,14 @@
 	{
 		"name": "Outlast",
 		"playtime": "-",
-		"score": "6.9"
-	},
-	{
-		"name": "Outlast: Whistleblower",
-		"playtime": "-",
-		"score": "7.0"
+		"score": "6.9",
+		"dlc": [
+			{
+				"name": "Outlast: Whistleblower",
+				"playtime": "-",
+				"score": "7.0"
+			}
+		]
 	},
 	{
 		"name": "Outlast 2",
@@ -365,7 +385,7 @@
 		"score": "9.8"
 	},
 	{
-		"name": "Read Dead Redemption 2",
+		"name": "Red Dead Redemption 2",
 		"playtime": "54h",
 		"score": "9.9"
 	},
@@ -407,52 +427,26 @@
 	{
 		"name": "Rise of the Tomb Raider",
 		"playtime": "(14h 15m) (9h 15m)",
-		"score": "9.5"
-	},
-	{
-		"name": "Rise of the Tomb Raider: Baba Yaga",
-		"playtime": "-",
-		"score": "9.0"
+		"score": "9.5",
+		"dlc": [
+			{
+				"name": "Rise of the Tomb Raider: Baba Yaga",
+				"playtime": "-",
+				"score": "9.0"
+			}
+		]
 	},
 	{
 		"name": "Shadow of the Tomb Raider",
 		"playtime": "10h 30m (9h 50m)",
-		"score": "9.8"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Forge",
-		"playtime": "1h 05m",
-		"score": "9.4"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Pillar",
-		"playtime": "55m",
-		"score": "9.3"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Nightmare",
-		"playtime": "40m",
-		"score": "9.6"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Price of Survival",
-		"playtime": "1h 25m",
-		"score": "9.2"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Serpent's Heart",
-		"playtime": "55m",
-		"score": "9.7"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Grand Caiman",
-		"playtime": "50m",
-		"score": "9.5"
-	},
-	{
-		"name": "Shadow of the Tomb Raider: The Path Home",
-		"playtime": "50m",
-		"score": "9.8"
+		"score": "9.8",
+		"dlc": [
+			{
+				"name": "All DLC",
+				"playtime": "~7h",
+				"score": "9.5"
+			}
+		]
 	},
 	{
 		"name": "Resident Evil 2 Remake",
@@ -472,12 +466,14 @@
 	{
 		"name": "Watch Dogs",
 		"playtime": "-",
-		"score": "8.8"
-	},
-	{
-		"name": "Watch Dogs: Bad Blood",
-		"playtime": "-",
-		"score": "8.7"
+		"score": "8.8",
+		"dlc": [
+			{
+				"name": "Watch Dogs: Bad Blood",
+				"playtime": "-",
+				"score": "8.7"
+			}
+		]
 	},
 	{
 		"name": "Watch Dogs 2",
@@ -506,8 +502,8 @@
 	},
 	{
 		"name": "Wolfenstein: Youngblood",
-		"playtime": "8h 15m",
-		"score": "9.6"
+		"playtime": "11h 50m",
+		"score": "9.8"
 	},
 	{
 		"name": "Wolfenstein II: The New Colossus",
