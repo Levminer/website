@@ -524,5 +524,30 @@
 		"name": "Zombotron",
 		"playtime": "5h 50m",
 		"score": "8.6"
+	},
+	{
+		"name": "Resident Evil 3 Remake",
+		"playtime": "5h 57m",
+		"score": "9.2"
+	},
+	{
+		"name": "Still Wakes The Deep",
+		"playtime": "4h 23m",
+		"score": "8.7"
+	},
+	{
+		"name": "Detroit Become Human",
+		"playtime": "12h 9m",
+		"score": "9.7"
+	},
+	{
+		"name": "Hellblade: Senua's Sacrifice",
+		"playtime": "8h 10m",
+		"score": "9.5"
+	},
+	{
+		"name": "Senua's Saga: Hellblade II",
+		"playtime": "6h 40m",
+		"score": "9.7"
 	}
 ]
