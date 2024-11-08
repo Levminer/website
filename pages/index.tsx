@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Link from "next/link"
 
 const Home = () => {
@@ -5,8 +6,12 @@ const Home = () => {
 
 	return (
 		<>
-			<div className="relative min-h-screen font-mono">
-				<div className="mx-1 mt-16 rounded-2xl bg-black p-10 text-left text-lg sm:mx-20 sm:text-2xl">
+			<Head>
+				<title>Home</title>
+			</Head>
+
+			<div className="relative min-h-screen bg-gradient-to-r from-yellow-600 to-red-600 font-mono py-16">
+				<div className="mx-1 rounded-2xl bg-black/70 p-3 text-left text-lg sm:mx-20 sm:p-10 sm:text-2xl">
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="#" line={i++} />
 						<h1>Lőrik Levente</h1>
@@ -87,8 +92,8 @@ export default Home
 
 const MarkdownSymbol = ({ symbol, line }) => {
 	return (
-		<div className="flex">
-			<span className="w-14 font-bold text-gray-500">{line}</span>
+		<div className="flex gap-10 text-right">
+			<span className="w-8 font-bold text-gray-500">{line}</span>
 			<span className="font-bold text-gray-400">{symbol}</span>
 		</div>
 	)

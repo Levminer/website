@@ -1,3 +1,4 @@
+import Head from "next/head"
 import { useEffect, useState } from "react"
 
 interface Game {
@@ -72,6 +73,10 @@ const Games = () => {
 
 	return (
 		<div className="min-h-screen bg-[rgb(20,20,20)] py-20">
+			<Head>
+				<title>Games</title>
+			</Head>
+
 			<div className="mx-auto mb-10 flex items-center justify-center">
 				<input
 					id="input"

@@ -11,10 +11,9 @@ type AppShowcaseProps = {
 
 const AppShowcase = (props: AppShowcaseProps) => {
 	return (
-		<div className="glass small:bg-gray-700 mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-2xl">
+		<div className="glass small:bg-gray-700 mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-4xl">
 			<div className="rounded-xl bg-white p-2">
-				{/* eslint-disable-next-line @next/next/no-img-element */}
-				<img loading="lazy" className="rounded" src={props.img} alt={props.title} />
+				<img className="rounded" src={props.img} alt={props.title} />
 			</div>
 
 			<div className="mx-auto flex flex-col justify-center pt-6 text-center">
@@ -34,7 +33,11 @@ const AppShowcase = (props: AppShowcaseProps) => {
 					<h3 className="flex flex-row flex-wrap justify-center gap-3 pt-8 text-lg text-gray-50">
 						<div className="flex flex-row gap-1">
 							<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-								<path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+								<path
+									fillRule="evenodd"
+									d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+									clipRule="evenodd"
+								/>
 							</svg>
 							Technologies: {props.technologies}
 						</div>
