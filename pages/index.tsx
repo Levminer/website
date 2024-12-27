@@ -40,7 +40,7 @@ const Home = () => {
 						</Link>
 					</div>
 
-					<div className="flex gap-1">
+					{/* <div className="flex gap-1">
 						<MarkdownSymbol symbol="" line={i++} />
 						<br />
 					</div>
@@ -52,10 +52,10 @@ const Home = () => {
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="*" line={i++} />
-						<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
+						<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
 							[Work](/work)
 						</Link>
-					</div>
+					</div> */}
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="" line={i++} />
