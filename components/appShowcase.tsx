@@ -11,9 +11,9 @@ type AppShowcaseProps = {
 
 const AppShowcase = (props: AppShowcaseProps) => {
 	return (
-		<div className="glass small:bg-gray-700 mx-auto mb-12 max-w-sm overflow-hidden rounded-2xl p-6 md:max-w-4xl">
-			<div className="rounded-xl bg-white p-2">
-				<img className="rounded" src={props.img} alt={props.title} />
+		<div className="small:bg-gray-700 mx-auto mb-12 max-w-sm overflow-hidden rounded-xl bg-black/70 p-6 md:max-w-4xl">
+			<div>
+				<img width={1920} height={1000} className="rounded-xl bg-white p-2" src={props.img} alt={props.title} />
 			</div>
 
 			<div className="mx-auto flex flex-col justify-center pt-6 text-center">

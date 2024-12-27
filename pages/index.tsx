@@ -1,8 +1,9 @@
 import Head from "next/head"
 import Link from "next/link"
+import MarkdownSymbol from "../components/markdownSymbol"
 
 const Home = () => {
-	let i = 0
+	let i = 1
 
 	return (
 		<>
@@ -10,16 +11,16 @@ const Home = () => {
 				<title>Home</title>
 			</Head>
 
-			<div className="relative min-h-screen bg-gradient-to-r from-yellow-600 to-red-600 font-mono py-16">
-				<div className="mx-1 rounded-2xl bg-black/70 p-3 text-left text-lg sm:mx-20 sm:p-10 sm:text-2xl">
+			<div className="relative flex min-h-screen justify-center bg-gradient-to-r from-yellow-600 to-red-600 py-32 font-mono">
+				<div className="mx-1 h-fit rounded-2xl bg-black/70 p-3 text-left text-lg sm:mx-28 sm:p-10 sm:text-2xl md:max-w-7xl">
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="#" line={i++} />
-						<h1>Lőrik Levente</h1>
+						<h1>Welcome!</h1>
 					</div>
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="*" line={i++} />
-						<h1>Freelance Software Engineer</h1>
+						<h1>I'm a Software Engineer based in Hungary, currently working as a freelancer.</h1>
 					</div>
 
 					<div className="flex gap-1">
@@ -36,6 +37,23 @@ const Home = () => {
 						<MarkdownSymbol symbol="*" line={i++} />
 						<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
 							[Projects](/projects)
+						</Link>
+					</div>
+
+					<div className="flex gap-1">
+						<MarkdownSymbol symbol="" line={i++} />
+						<br />
+					</div>
+
+					<div className="flex gap-1">
+						<MarkdownSymbol symbol="##" line={i++} />
+						<h2>Things I worked on:</h2>
+					</div>
+
+					<div className="flex gap-1">
+						<MarkdownSymbol symbol="*" line={i++} />
+						<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
+							[Work](/work)
 						</Link>
 					</div>
 
@@ -89,12 +107,3 @@ const Home = () => {
 }
 
 export default Home
-
-const MarkdownSymbol = ({ symbol, line }) => {
-	return (
-		<div className="flex gap-10 text-right">
-			<span className="w-8 font-bold text-gray-500">{line}</span>
-			<span className="font-bold text-gray-400">{symbol}</span>
-		</div>
-	)
-}

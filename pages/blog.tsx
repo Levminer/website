@@ -19,14 +19,22 @@ export default function Home({ posts }) {
 			<section className="bg-gradient-to-r from-indigo-900 to-sky-900">
 				{posts.map((post, index) => (
 					<div key={index} className="overflow-hidden">
-						<div className="container mx-auto px-5 py-24">
+						<div className="container mx-auto px-5 py-32">
 							<div className="flex flex-wrap justify-center gap-10">
 								<div className="flex max-w-md flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl">
 									<div>
-										<img loading="lazy" width="800px" height="400px" src={post.frontmatter.cover_image} className="aspect-video rounded-xl bg-gray-700 p-1" alt="cover" />
+										<img
+											width={800}
+											height={400}
+											src={post.frontmatter.cover_image}
+											className="rounded-xl bg-gray-700 p-2"
+											alt="cover"
+										/>
 									</div>
 									<h2 className="title-font my-6 text-3xl font-medium sm:text-5xl">{post.frontmatter.title}</h2>
-									<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">{post.frontmatter.date}</span>
+									<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">
+										{post.frontmatter.date}
+									</span>
 									<div className="prose prose-invert lg:prose-xl">{post.frontmatter.excerpt}</div>
 									<div className="mt-5">
 										<Link className="button" href={`/blog/${post.slug}`}>
