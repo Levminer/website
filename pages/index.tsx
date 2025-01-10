@@ -20,7 +20,7 @@ const Home = () => {
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="*" line={i++} />
-						<h1>I'm a Software Engineer based in Hungary, currently working as a freelancer.</h1>
+						<h2>I'm a Software Engineer based in Hungary, currently working as a freelancer.</h2>
 					</div>
 
 					<div className="flex gap-1">
@@ -30,32 +30,38 @@ const Home = () => {
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="##" line={i++} />
-						<h2>Open-source stuff:</h2>
+						<h2>Open-source stuff</h2>
 					</div>
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="*" line={i++} />
-						<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
-							[Projects](/projects)
-						</Link>
+						<h3>
+							Couple of things I did in my free time{" "}
+							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
+								[Projects](/projects)
+							</Link>
+						</h3>
 					</div>
 
-					{/* <div className="flex gap-1">
+					<div className="flex gap-1">
 						<MarkdownSymbol symbol="" line={i++} />
 						<br />
 					</div>
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="##" line={i++} />
-						<h2>Things I worked on:</h2>
+						<h2>Things I worked on</h2>
 					</div>
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="*" line={i++} />
-						<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
-							[Work](/work)
-						</Link>
-					</div> */}
+						<h3>
+							Companies I worked with{" "}
+							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
+								[Work](/work)
+							</Link>
+						</h3>
+					</div>
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="" line={i++} />
@@ -64,7 +70,7 @@ const Home = () => {
 
 					<div className="flex gap-1">
 						<MarkdownSymbol symbol="##" line={i++} />
-						<h2>Socials:</h2>
+						<h2>Socials</h2>
 					</div>
 
 					<div className="flex gap-1">

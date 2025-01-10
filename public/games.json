@@ -6,12 +6,12 @@
 	},
 	{
 		"name": "Alan Wake 2",
-		"playtime": "24h",
-		"score": "9.6"
+		"playtime": "24h 13m",
+		"score": "9.8"
 	},
 	{
 		"name": "Assassin's Creed Origins",
-		"playtime": "~28h",
+		"playtime": "27h 17m",
 		"score": "9.2"
 	},
 	{
@@ -56,7 +56,7 @@
 	},
 	{
 		"name": "Black Mesa",
-		"playtime": "~15h",
+		"playtime": "15h 25m",
 		"score": "10"
 	},
 	{
@@ -170,7 +170,7 @@
 	},
 	{
 		"name": "Dishonored",
-		"playtime": "(-) (7h 05m)",
+		"playtime": "7h 05m",
 		"score": "9.5",
 		"dlc": [
 			{
@@ -199,7 +199,7 @@
 	},
 	{
 		"name": "Far Cry 3",
-		"playtime": "(-) (11h 50m)",
+		"playtime": "11h 50m",
 		"score": "10"
 	},
 	{
@@ -209,8 +209,8 @@
 	},
 	{
 		"name": "Far Cry 4",
-		"playtime": "(-) (14h 30m)",
-		"score": "9.6",
+		"playtime": "14h 30m",
+		"score": "9.5",
 		"dlc": [
 			{
 				"name": "Far Cry 4: Valley of the Yetis",
@@ -221,13 +221,13 @@
 	},
 	{
 		"name": "Far Cry Primal",
-		"playtime": "(-) (17h 05m)",
-		"score": "10"
+		"playtime": "17h 05m",
+		"score": "9.8"
 	},
 	{
 		"name": "Far Cry 5",
-		"playtime": "(-) (19h 20m)",
-		"score": "9.9",
+		"playtime": "19h 20m",
+		"score": "9.7",
 		"dlc": [
 			{
 				"name": "Far Cry 5: Dead Living Zombies",
@@ -248,8 +248,8 @@
 	},
 	{
 		"name": "Far Cry New Dawn",
-		"playtime": "(-) (11h 10m)",
-		"score": "9.2"
+		"playtime": "11h 10m",
+		"score": "9.1"
 	},
 	{
 		"name": "Far Cry 6",
@@ -266,12 +266,12 @@
 	{
 		"name": "Firewatch",
 		"playtime": "(-) (3h 20m)",
-		"score": "9.5"
+		"score": "9.6"
 	},
 	{
 		"name": "Grand Theft Auto V",
 		"playtime": "28h 50m",
-		"score": "10"
+		"score": "9.9"
 	},
 	{
 		"name": "Hitman",
@@ -308,12 +308,12 @@
 	{
 		"name": "Metro: Last Light Redux",
 		"playtime": "7h 15m",
-		"score": "8.9"
+		"score": "9.2"
 	},
 	{
 		"name": "Metro: 2033 Redux",
 		"playtime": "(7h 40m) (-)",
-		"score": "9.0"
+		"score": "9.3"
 	},
 	{
 		"name": "Metro Exodus",
@@ -340,7 +340,7 @@
 	{
 		"name": "Mirror's Edge Catalyst",
 		"playtime": "6h 50m",
-		"score": "9.4"
+		"score": "9.3"
 	},
 	{
 		"name": "My Friend Pedro",
@@ -355,7 +355,7 @@
 	{
 		"name": "Outer Worlds",
 		"playtime": "15h 40m",
-		"score": "9.6"
+		"score": "9.5"
 	},
 	{
 		"name": "Outlast",
@@ -387,12 +387,12 @@
 	{
 		"name": "Red Dead Redemption 2",
 		"playtime": "54h",
-		"score": "9.9"
+		"score": "10"
 	},
 	{
 		"name": "Subnautica",
-		"playtime": "(-) (23h 40m)",
-		"score": "9.4"
+		"playtime": "23h 40m",
+		"score": "9.5"
 	},
 	{
 		"name": "Subnautica Below Zero",
@@ -421,12 +421,12 @@
 	},
 	{
 		"name": "Tomb Raider",
-		"playtime": "(-) (7h 40m) (9h 10m)",
+		"playtime": "9h 10m",
 		"score": "9.3"
 	},
 	{
 		"name": "Rise of the Tomb Raider",
-		"playtime": "(14h 15m) (9h 15m)",
+		"playtime": "14h 15m",
 		"score": "9.5",
 		"dlc": [
 			{
@@ -438,7 +438,7 @@
 	},
 	{
 		"name": "Shadow of the Tomb Raider",
-		"playtime": "10h 30m (9h 50m)",
+		"playtime": "10h 30m",
 		"score": "9.8",
 		"dlc": [
 			{
