@@ -19,7 +19,7 @@ const Home = () => {
 					</div>
 
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<h3>Couple of companies I've worked for</h3>
 					</div>
 

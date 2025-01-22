@@ -10,7 +10,7 @@ const Home = () => {
 
 			{/* desktop projects */}
 			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-red-400 to-pink-500 py-32">
-				<div className="flex flex-col flex-wrap gap-3">
+				<div className="flex flex-col flex-wrap justify-center items-center gap-3 mx-2">
 					<AppShowcase
 						img={"https://raw.githubusercontent.com/Levminer/cores/dev/.github/screenshots/home.png"}
 						title={"Cores"}

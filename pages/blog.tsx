@@ -22,12 +22,12 @@ export default function Home({ posts }) {
 						<div className="container mx-auto px-5 py-32">
 							<div className="flex flex-wrap justify-center gap-10">
 								<div className="flex max-w-md flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl">
-									<div>
+									<div className="relative aspect-[1.91/1] w-full">
 										<img
-											width={800}
-											height={400}
+											width={1200}
+											height={630}
 											src={post.frontmatter.cover_image}
-											className="rounded-xl bg-gray-700 p-2"
+											className="h-full w-full rounded-xl bg-gray-700 object-cover p-1"
 											alt="cover"
 										/>
 									</div>

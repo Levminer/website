@@ -11,9 +11,17 @@ type AppShowcaseProps = {
 
 const AppShowcase = (props: AppShowcaseProps) => {
 	return (
-		<div className="small:bg-gray-700 mx-auto mb-12 max-w-sm overflow-hidden rounded-xl bg-black/70 p-6 md:max-w-4xl">
+		<div className="small:bg-gray-700 mb-12 w-full overflow-hidden rounded-xl bg-black/70 p-6 md:w-[750px]">
 			<div>
-				<img width={1920} height={1020} className="rounded-xl bg-white p-2" src={props.img} alt={props.title} />
+				<div className="relative aspect-[1919/1027] w-full">
+					<img
+						width={1920}
+						height={1020}
+						className="h-full w-full rounded-xl bg-white object-cover p-2"
+						src={props.img}
+						alt={props.title}
+					/>
+				</div>
 			</div>
 
 			<div className="mx-auto flex flex-col justify-center pt-6 text-center">

@@ -19,8 +19,13 @@ const Home = () => {
 					</div>
 
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<h2>I'm a Software Engineer based in Hungary, currently working as a freelancer.</h2>
+					</div>
+
+					<div className="flex gap-1">
+						<MarkdownSymbol symbol="" line={i++} />
+						<h2>Mostly working with React and React Native.</h2>
 					</div>
 
 					<div className="flex gap-1">
@@ -34,7 +39,7 @@ const Home = () => {
 					</div>
 
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<h3>
 							Couple of things I did in my free time{" "}
 							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
@@ -54,7 +59,7 @@ const Home = () => {
 					</div>
 
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<h3>
 							Companies I worked with{" "}
 							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
@@ -74,7 +79,7 @@ const Home = () => {
 					</div>
 
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<a
 							href="https://github.com/levminer"
 							className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
@@ -85,7 +90,7 @@ const Home = () => {
 						</a>
 					</div>
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<a
 							href="https://twitter.com/levminer92"
 							className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
@@ -97,7 +102,7 @@ const Home = () => {
 					</div>
 
 					<div className="flex gap-1">
-						<MarkdownSymbol symbol="*" line={i++} />
+						<MarkdownSymbol symbol="" line={i++} />
 						<a href="mailto:contact@levminer.com" className="font-semibold text-blue-500 duration-200 ease-in hover:underline">
 							[Email](contact@levminer.com)
 						</a>
