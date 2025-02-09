@@ -11,36 +11,16 @@ const Home = () => {
 				<title>Home</title>
 			</Head>
 
-			<div className="relative flex min-h-screen justify-center bg-gradient-to-r from-yellow-600 to-red-600 py-32 font-mono">
-				<div className="mx-1 h-fit rounded-2xl bg-black/70 p-3 text-left text-lg sm:mx-28 sm:p-10 sm:text-2xl md:max-w-7xl">
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="#" line={i++} />
-						<h1>Welcome!</h1>
-					</div>
+			<div className="relative flex min-h-screen flex-col bg-gray-800 py-32 font-mono">
+				<div className="mx-auto flex w-full max-w-xl flex-col items-center justify-center space-y-5 px-5">
+					<h1 className="text-center">
+						Hi! I'm a Software Engineer based in Hungary, currently working as a freelancer. Mostly working with React, Next.js and React
+						Native.
+					</h1>
 
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<h2>I'm a Software Engineer based in Hungary, currently working as a freelancer.</h2>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<h2>Mostly working with React and React Native.</h2>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<br />
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="##" line={i++} />
-						<h2>Open-source stuff</h2>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<h3>
+					<div className="w-full rounded-xl border-2 border-gray-700 p-5 text-center">
+						<h2 className="text-2xl font-bold">Open-source</h2>
+						<h3 className="text-balance">
 							Couple of things I did in my free time{" "}
 							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/projects">
 								[Projects](/projects)
@@ -48,19 +28,9 @@ const Home = () => {
 						</h3>
 					</div>
 
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<br />
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="##" line={i++} />
-						<h2>Things I worked on</h2>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<h3>
+					<div className="w-full rounded-xl border-2 border-gray-700 p-5 text-center">
+						<h2 className="text-2xl font-bold">Work</h2>
+						<h3 className="text-balance">
 							Companies I worked with{" "}
 							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
 								[Work](/work)
@@ -68,48 +38,35 @@ const Home = () => {
 						</h3>
 					</div>
 
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<br />
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="##" line={i++} />
-						<h2>Socials</h2>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<a
-							href="https://github.com/levminer"
-							className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							[GitHub](github.com/levminer)
-						</a>
-					</div>
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<a
-							href="https://twitter.com/levminer92"
-							className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							[Twitter](twitter.com/levminer92)
-						</a>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
-						<a href="mailto:contact@levminer.com" className="font-semibold text-blue-500 duration-200 ease-in hover:underline">
-							[Email](contact@levminer.com)
-						</a>
-					</div>
-
-					<div className="flex gap-1">
-						<MarkdownSymbol symbol="" line={i++} />
+					<div className="w-full rounded-xl border-2 border-gray-700 p-5 text-center">
+						<h2 className="text-2xl font-bold">Socials</h2>
+						<ol className="">
+							<li>
+								<a
+									href="https://github.com/levminer"
+									className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									[GitHub](github.com/levminer)
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://twitter.com/levminer92"
+									className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									[Twitter](twitter.com/levminer92)
+								</a>
+							</li>
+							<li>
+								<a href="mailto:contact@levminer.com" className="font-semibold text-blue-500 duration-200 ease-in hover:underline">
+									[Email](contact@levminer.com)
+								</a>
+							</li>
+						</ol>
 					</div>
 				</div>
 			</div>

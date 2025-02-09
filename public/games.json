@@ -265,7 +265,7 @@
 	},
 	{
 		"name": "Firewatch",
-		"playtime": "(-) (3h 20m)",
+		"playtime": "3h 20m",
 		"score": "9.6"
 	},
 	{
@@ -307,17 +307,17 @@
 	},
 	{
 		"name": "Metro: Last Light Redux",
-		"playtime": "7h 15m",
+		"playtime": "9h 40m",
 		"score": "9.2"
 	},
 	{
 		"name": "Metro: 2033 Redux",
-		"playtime": "(7h 40m) (-)",
+		"playtime": "7h 50m",
 		"score": "9.3"
 	},
 	{
 		"name": "Metro Exodus",
-		"playtime": "(14h 30m) (-)",
+		"playtime": "14h 30m",
 		"score": "9.8",
 		"dlc": [
 			{
@@ -461,7 +461,7 @@
 	{
 		"name": "Road 96",
 		"playtime": "7h 15m",
-		"score": "9.3"
+		"score": "9.2"
 	},
 	{
 		"name": "Watch Dogs",
@@ -513,12 +513,12 @@
 	{
 		"name": "Unravel",
 		"playtime": "8h",
-		"score": "9.0"
+		"score": "9.2"
 	},
 	{
 		"name": "Unravel 2",
 		"playtime": "4h 50m",
-		"score": "8.8"
+		"score": "9.4"
 	},
 	{
 		"name": "Zombotron",
@@ -549,5 +549,37 @@
 		"name": "Senua's Saga: Hellblade II",
 		"playtime": "6h 40m",
 		"score": "9.7"
+	},
+	{
+		"name": "Portal",
+		"playtime": "2h 20m",
+		"score": "9.6"
+	},
+	{
+		"name": "Portal 2",
+		"playtime": "5h 27m",
+		"score": "9.4"
+	},
+	{
+		"name": "Half-Life 2",
+		"playtime": "10h 40m",
+		"score": "10",
+		"dlc": [
+			{
+				"name": "Half-Life 2: Episode One",
+				"playtime": "3h 45m",
+				"score": "9.8"
+			},
+			{
+				"name": "Half-Life 2: Episode Two",
+				"playtime": "4h 20m",
+				"score": "9.8"
+			}
+		]
+	},
+	{
+		"name": "Indiana Jones and the Great Circle",
+		"playtime": "23h 50m",
+		"score": "9.6"
 	}
 ]
