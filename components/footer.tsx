@@ -6,10 +6,10 @@ const Footer = () => {
 			<footer className="bg-gray-900">
 				<div className="mx-auto p-6">
 					<div className="mb-3 flex w-full items-center justify-center gap-3">
-						<Link className="text-2xl duration-200 ease-in hover:text-gray-300" target="_blank" href="/policies/privacy">
+						<Link className="text-xl duration-200 ease-in hover:text-gray-300" target="_blank" href="/policies/privacy">
 							Privacy
 						</Link>
-						<Link className="text-2xl duration-200 ease-in hover:text-gray-300" target="_blank" href="/policies/terms">
+						<Link className="text-xl duration-200 ease-in hover:text-gray-300" target="_blank" href="/policies/terms">
 							Terms
 						</Link>
 					</div>
@@ -58,7 +58,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div>
-						<p className="text-center text-2xl">Copyright © {new Date().getFullYear()} Lőrik Levente</p>
+						<p className="text-center text-xl">Copyright © {new Date().getFullYear()} Lőrik Levente</p>
 					</div>
 				</div>
 			</footer>
