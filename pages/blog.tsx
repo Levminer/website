@@ -19,9 +19,9 @@ export default function Home({ posts }) {
 			<section className="bg-gradient-to-r from-indigo-900 to-sky-900">
 				{posts.map((post, index) => (
 					<div key={index} className="overflow-hidden">
-						<div className="container mx-auto px-5 py-32">
+						<div className="container mx-auto px-5 py-16">
 							<div className="flex flex-wrap justify-center gap-10">
-								<div className="flex max-w-md flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl">
+								<div className="flex max-w-md flex-col items-start rounded-xl bg-gray-800 p-5 md:p-10 md:max-w-3xl">
 									<div className="relative aspect-[1.91/1] w-full">
 										<img
 											width={1200}

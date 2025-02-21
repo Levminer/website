@@ -9,8 +9,8 @@ const Home = () => {
 			</Head>
 
 			{/* desktop projects */}
-			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-r from-red-400 to-pink-500 py-32">
-				<div className="flex flex-col flex-wrap justify-center items-center gap-3 mx-2">
+			<section id="desktop" className="mx-auto flex flex-col flex-wrap bg-gradient-to-tr from-gray-700 via-rose-800 to-pink-800 py-32">
+				<div className="mx-auto flex flex-col flex-wrap justify-center items-center space-y-5 w-full max-w-2xl px-5">
 					<AppShowcase
 						img={"https://raw.githubusercontent.com/Levminer/cores/dev/.github/screenshots/home.png"}
 						title={"Cores"}

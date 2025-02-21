@@ -11,45 +11,45 @@ type AppShowcaseProps = {
 
 const AppShowcase = (props: AppShowcaseProps) => {
 	return (
-		<div className="small:bg-gray-700 mb-12 w-full overflow-hidden rounded-xl bg-black/70 p-6 md:w-[750px]">
+		<div className="small:bg-gray-700 w-full rounded-xl bg-black/70 p-6 font-mono overflow-hidden">
+			<div className="mx-auto flex flex-col justify-center pb-6 text-left">
+				<h2 className="text-2xl font-bold">{props.title}</h2>
+				<h3 className="text-justify text-gray-200">{props.description}</h3>
+				<h3 className=" text-gray-50">
+					<u>Technologies:</u> {props.technologies}
+				</h3>
+
+				<h3>
+					<a
+						href={props.website}
+						className="font-semibold text-blue-500 duration-200 ease-in hover:underline break-words"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						[Website]({props.website})
+					</a>
+				</h3>
+				<h3>
+					<a
+						href={props.source}
+						className="font-semibold text-blue-500 duration-200 ease-in hover:underline break-words"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						[Source]({props.source})
+					</a>
+				</h3>
+			</div>
+
 			<div>
 				<div className="relative aspect-[1919/1027] w-full">
 					<img
 						width={1920}
 						height={1020}
-						className="h-full w-full rounded-xl bg-white object-cover p-2"
+						className="h-full w-full rounded-xl bg-white object-cover p-1"
 						src={props.img}
 						alt={props.title}
 					/>
-				</div>
-			</div>
-
-			<div className="mx-auto flex flex-col justify-center pt-6 text-center">
-				<h1 className="text-4xl font-bold ">{props.title}</h1>
-				<h2 className="mt-3 text-center text-2xl text-gray-200">{props.description}</h2>
-
-				<div className="mt-6 flex justify-center gap-3">
-					<a className="button" target="_blank" rel="noopener noreferrer" href={props.website}>
-						Website
-					</a>
-					<a className="button" target="_blank" rel="noopener noreferrer" href={props.source}>
-						Source
-					</a>
-				</div>
-
-				<div>
-					<h3 className="flex flex-row flex-wrap justify-center gap-3 pt-8 text-lg text-gray-50">
-						<div className="flex flex-row gap-1">
-							<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
-								<path
-									fillRule="evenodd"
-									d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
-									clipRule="evenodd"
-								/>
-							</svg>
-							Technologies: {props.technologies}
-						</div>
-					</h3>
 				</div>
 			</div>
 		</div>

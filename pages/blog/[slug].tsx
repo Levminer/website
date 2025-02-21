@@ -30,9 +30,9 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 			</Head>
 			<div className="bg-gradient-to-r from-indigo-900 to-sky-900">
 				<article>
-					<div className="container mx-auto py-32">
+					<div className="container mx-auto py-16">
 						<div className="flex flex-wrap justify-center">
-							<div className="small:!w-full flex flex-col items-start rounded-xl bg-gray-800 p-12 md:max-w-4xl">
+							<div className="small:!w-full flex flex-col items-start rounded-xl bg-gray-800 p-5 md:p-10 md:max-w-3xl">
 								<div>
 									<img src={cover_image} className="rounded-xl bg-gray-700 p-1" alt="Cover image" />
 								</div>
@@ -56,7 +56,7 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 						<div className="small:flex-wrap mt-5 flex gap-3">
 							<a
 								href="https://twitter.com/levminer92"
-								className="button bg-white border-white hover:text-white gap-3 font-medium text-black"
+								className="button gap-3 border-white bg-white font-medium text-black hover:text-white"
 								rel="noopener noreferrer"
 								target="_blank"
 								aria-label="Twitter"
