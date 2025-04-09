@@ -47,7 +47,7 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 				</article>
 
 				<div className="pb-32">
-					<div className="small:!w-full container mx-auto rounded-xl bg-gray-800 p-8 md:max-w-4xl">
+					<div className="small:!w-full container mx-auto rounded-xl bg-gray-800 p-8 md:max-w-3xl">
 						<h1 className="text-4xl">👋 Hi there!</h1>
 						<h2 className="mt-5 text-2xl text-gray-200">
 							Thanks for reading this post! If you enjoyed this article check out my other articles, share it with others and follow me
