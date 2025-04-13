@@ -581,5 +581,15 @@
 		"name": "Indiana Jones and the Great Circle",
 		"playtime": "23h 50m",
 		"score": "9.6"
+	},
+	{
+		"name": "Doom 2016",
+		"playtime": "9h 8m",
+		"score": "9.6"
+	},
+	{
+		"name": "Doom Eternal",
+		"playtime": "12h 50m",
+		"score": "9.5"
 	}
 ]

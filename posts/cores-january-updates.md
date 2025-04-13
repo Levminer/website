@@ -21,7 +21,7 @@ Cores is a hardware monitor background service with remote connection support an
 
 ## Web dashboard
 
-Did you know that you can monitor your computer from the web dashboard? Check it out
+Did you know that you can monitor your computer from the web dashboard? [Check it out](https://www.coresmonitor.com/home)
 
 ## Feedback
 
