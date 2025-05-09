@@ -32,7 +32,7 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 				<article>
 					<div className="container mx-auto py-16">
 						<div className="flex flex-wrap justify-center">
-							<div className="small:!w-full flex flex-col items-start rounded-xl bg-gray-800 p-5 md:p-10 md:max-w-3xl">
+							<div className="!w-full flex flex-col items-start rounded-xl bg-gray-800 p-5 md:p-10 md:max-w-3xl">
 								<div>
 									<img src={cover_image} className="rounded-xl bg-gray-700 p-1" alt="Cover image" />
 								</div>
@@ -47,13 +47,13 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 				</article>
 
 				<div className="pb-32">
-					<div className="small:!w-full container mx-auto rounded-xl bg-gray-800 p-8 md:max-w-3xl">
+					<div className="!w-full container mx-auto rounded-xl bg-gray-800 p-8 md:max-w-3xl">
 						<h1 className="text-4xl">👋 Hi there!</h1>
 						<h2 className="mt-5 text-2xl text-gray-200">
 							Thanks for reading this post! If you enjoyed this article check out my other articles, share it with others and follow me
 							on Twitter.
 						</h2>
-						<div className="small:flex-wrap mt-5 flex gap-3">
+						<div className="flex-wrap mt-5 flex gap-3">
 							<a
 								href="https://twitter.com/levminer92"
 								className="button gap-3 border-white bg-white font-medium text-black hover:text-white"

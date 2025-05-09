@@ -4,11 +4,11 @@
 
 @layer components {
 	.button {
-		@apply btn flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium normal-case text-black outline-none duration-200 ease-in hover:border-white hover:bg-transparent hover:text-white;
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-white px-4 py-2 text-xl font-medium normal-case text-black outline-none duration-200 ease-in hover:border-white hover:bg-transparent hover:text-white;
 	}
 
 	.buttont {
-		@apply btn flex items-center justify-center rounded-full border-2 border-white bg-transparent px-4 py-2 text-xl font-medium normal-case text-white outline-none duration-200 ease-in hover:border-white hover:bg-white hover:text-black;
+		@apply flex items-center justify-center rounded-full border-2 border-white bg-transparent px-4 py-2 text-xl font-medium normal-case text-white outline-none duration-200 ease-in hover:border-white hover:bg-white hover:text-black;
 	}
 }
 

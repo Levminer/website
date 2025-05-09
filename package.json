@@ -9,7 +9,6 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"daisyui": "^2.51.1",
 		"gray-matter": "^4.0.3",
 		"markdown-it": "^13.0.2",
 		"markdown-it-highlightjs": "^4.0.1",

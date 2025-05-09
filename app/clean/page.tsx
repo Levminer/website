@@ -29,8 +29,10 @@ const Clean = () => {
 		const handleFullscreenChange = () => {
 			if (document.fullscreenElement) {
 				setIsFullscreen(true)
+				document.body.style.cursor = "none"
 			} else {
 				setIsFullscreen(false)
+				document.body.style.cursor = "default"
 			}
 		}
 

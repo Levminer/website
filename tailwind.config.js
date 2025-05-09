@@ -18,16 +18,7 @@ module.exports = {
 					magenta: "#9B5094",
 				},
 			},
-
-			screens: {
-				small: { max: "800px" },
-			},
 		},
 	},
-	plugins: [require("@tailwindcss/typography"), require("daisyui")],
-	daisyui: {
-		base: false,
-		themes: [],
-		utils: false,
-	},
+	plugins: [require("@tailwindcss/typography")],
 }

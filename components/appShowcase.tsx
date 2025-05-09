@@ -11,7 +11,7 @@ type AppShowcaseProps = {
 
 const AppShowcase = (props: AppShowcaseProps) => {
 	return (
-		<div className="small:bg-gray-700 w-full rounded-xl bg-black/70 p-6 font-mono overflow-hidden">
+		<div className="bg-gray-700 w-full rounded-xl md:bg-black/70 p-6 font-mono overflow-hidden">
 			<div className="mx-auto flex flex-col justify-center pb-6 text-left">
 				<h2 className="text-2xl font-bold">{props.title}</h2>
 				<h3 className="text-justify text-gray-200">{props.description}</h3>

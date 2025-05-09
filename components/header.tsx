@@ -6,7 +6,7 @@ const Header = () => {
 
 	return (
 		<>
-			<header className="small:relative small:backdrop-blur-0 small:bg-black sticky top-0 z-50 bg-gray-900/70 text-gray-50 backdrop-blur-xl backdrop-saturate-100">
+			<header className="relative backdrop-blur-0 bg-black sm:sticky top-0 z-50 sm:bg-gray-900/70 text-gray-50 sm:backdrop-blur-xl backdrop-saturate-100">
 				<div className="container mx-auto flex flex-col flex-wrap items-center justify-center p-5 md:flex-row">
 					<nav className="flex flex-wrap text-base">
 						<Link
