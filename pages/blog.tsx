@@ -16,7 +16,7 @@ export default function Home({ posts }) {
 				<title>Blog</title>
 			</Head>
 
-			<section className="bg-gradient-to-r from-indigo-900 to-sky-900">
+			<section className="bg-gradient-to-r from-indigo-900 to-sky-900 font-mono">
 				{posts.map((post, index) => (
 					<div key={index} className="overflow-hidden">
 						<div className="container mx-auto px-5 py-16">
@@ -31,7 +31,7 @@ export default function Home({ posts }) {
 											alt="cover"
 										/>
 									</div>
-									<h2 className="title-font my-6 text-3xl font-medium sm:text-5xl">{post.frontmatter.title}</h2>
+									<h2 className="title-font my-6 text-2xl font-medium sm:text-4xl">{post.frontmatter.title}</h2>
 									<span className="text-popup-blue mb-5 rounded-lg bg-gray-700 p-2 text-sm font-bold tracking-widest">
 										{post.frontmatter.date}
 									</span>

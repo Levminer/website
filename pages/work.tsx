@@ -82,6 +82,28 @@ const Home = () => {
 					</div>
 
 					<div className="left w-full rounded-xl border-2 border-white p-5">
+						<h2 className="text-2xl font-bold">kvikk</h2>
+						<h3 className="text-justify">
+							<u>Stack:</u> React, TypeScript
+						</h3>
+						<h3 className="text-justify">
+							<u>Responsibilities:</u> Built a map widget that can be embedded into websites. It allows users to find the nearest pick
+							up point for major delivery services in Hungary.
+						</h3>
+						<h3 className="text-left">
+							<u>Link:</u>{" "}
+							<a
+								href="https://outfocusapp.hu/"
+								className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								[kivkk.hu](https://kivkk.hu/)
+							</a>
+						</h3>
+					</div>
+
+					<div className="left w-full rounded-xl border-2 border-white p-5">
 						<h2 className="text-2xl font-bold">Kaslik Alapítvány</h2>
 						<h3 className="text-justify">
 							<u>Stack:</u> HTML, TypeScript

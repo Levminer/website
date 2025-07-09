@@ -28,7 +28,7 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 				<meta property="og:type" content="article" key="ogType" />
 				<meta property="og:image" content={cover_image} key="ogImage" />
 			</Head>
-			<div className="bg-gradient-to-r from-indigo-900 to-sky-900">
+			<div className="bg-gradient-to-r from-indigo-900 to-sky-900 font-mono">
 				<article>
 					<div className="container mx-auto py-16">
 						<div className="flex flex-wrap justify-center">
@@ -48,8 +48,8 @@ export default function PostPage({ frontmatter: { title, date, cover_image, exce
 
 				<div className="pb-32">
 					<div className="!w-full container mx-auto rounded-xl bg-gray-800 p-8 md:max-w-3xl">
-						<h1 className="text-4xl">👋 Hi there!</h1>
-						<h2 className="mt-5 text-2xl text-gray-200">
+						<h1 className="text-3xl">👋 Hi there!</h1>
+						<h2 className="mt-5 text-xl text-gray-200">
 							Thanks for reading this post! If you enjoyed this article check out my other articles, share it with others and follow me
 							on Twitter.
 						</h2>
