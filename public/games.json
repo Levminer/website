@@ -156,7 +156,14 @@
 	{
 		"name": "Cyberpunk 2077",
 		"playtime": "16h 50m",
-		"score": "9.4"
+		"score": "9.4",
+		"dlc": [
+			{
+				"name": "Cyberpunk 2077: Phantom Liberty",
+				"playtime": "14h",
+				"score": "9.8"
+			}
+		]
 	},
 	{
 		"name": "Deadbolt",
@@ -608,5 +615,20 @@
 		"name": "Little Nightmares",
 		"playtime": "4h 15m",
 		"score": "8.4"
+	},
+	{
+		"name": "Clair Obscur: Expedition 33",
+		"playtime": "27h 25m",
+		"score": "9.7"
+	},
+	{
+		"name": "Plague Tale: Innocence",
+		"playtime": "9h 25m",
+		"score": "9.6"
+	},
+	{
+		"name": "Little Nightmares 2",
+		"playtime": "6h 30m",
+		"score": "8.5"
 	}
 ]

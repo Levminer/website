@@ -93,12 +93,12 @@ const Home = () => {
 						<h3 className="text-left">
 							<u>Link:</u>{" "}
 							<a
-								href="https://outfocusapp.hu/"
+								href="https://kvikk.hu/"
 								className="font-semibold text-blue-500 duration-200 ease-in hover:underline"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								[kivkk.hu](https://kivkk.hu/)
+								[kvikk.hu](https://kvikk.hu/)
 							</a>
 						</h3>
 					</div>
