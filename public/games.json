@@ -139,6 +139,11 @@
 		"score": "7.4"
 	},
 	{
+		"name": "Call of Duty: WWII",
+		"playtime": "5h 25m",
+		"score": "7.5"
+	},
+	{
 		"name": "Call of Duty: Infinite Warfare",
 		"playtime": "7h 20m",
 		"score": "7.8"
@@ -619,16 +624,36 @@
 	{
 		"name": "Clair Obscur: Expedition 33",
 		"playtime": "27h 25m",
-		"score": "9.7"
+		"score": "9.8"
 	},
 	{
 		"name": "Plague Tale: Innocence",
 		"playtime": "9h 25m",
-		"score": "9.6"
+		"score": "9.4"
 	},
 	{
 		"name": "Little Nightmares 2",
 		"playtime": "6h 30m",
 		"score": "8.5"
+	},
+	{
+		"name": "Plague Tale: Requiem",
+		"playtime": "14h 50m",
+		"score": "9.5"
+	},
+	{
+		"name": "Starfield",
+		"playtime": "-",
+		"score": "6.4"
+	},
+	{
+		"name": "Titanfall 2",
+		"playtime": "4h 45m",
+		"score": "9.5"
+	},
+	{
+		"name": "Crime Scene Cleanr",
+		"playtime": "9h 12m",
+		"score": "9.2"
 	}
 ]
