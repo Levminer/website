@@ -13,7 +13,7 @@
 		"lucide-react": "^0.525.0",
 		"markdown-it": "^13.0.2",
 		"markdown-it-highlightjs": "^4.0.1",
-		"next": "^14.2.28",
+		"next": "^14.2.35",
 		"next-sitemap": "^4.2.3",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
