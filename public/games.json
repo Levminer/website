@@ -51,8 +51,8 @@
 	},
 	{
 		"name": "Beyond Two Souls",
-		"playtime": "8h 45m",
-		"score": "9.8"
+		"playtime": "9h 30m",
+		"score": "9.2"
 	},
 	{
 		"name": "Black Mesa",
@@ -241,7 +241,7 @@
 	{
 		"name": "Far Cry Primal",
 		"playtime": "17h 05m",
-		"score": "9.8"
+		"score": "9.7"
 	},
 	{
 		"name": "Far Cry 5",
@@ -268,12 +268,12 @@
 	{
 		"name": "Far Cry New Dawn",
 		"playtime": "11h 10m",
-		"score": "9.0"
+		"score": "8.8"
 	},
 	{
 		"name": "Far Cry 6",
 		"playtime": "28h 50m",
-		"score": "9.5",
+		"score": "9.2",
 		"dlc": [
 			{
 				"name": "Far Cry 6: Vaas: Insanity",
@@ -290,7 +290,7 @@
 	{
 		"name": "Grand Theft Auto V",
 		"playtime": "28h 50m",
-		"score": "9.9"
+		"score": "9.6"
 	},
 	{
 		"name": "Hitman",
@@ -394,7 +394,7 @@
 		"score": "7.2"
 	},
 	{
-		"name": "Remnant (All DLC)",
+		"name": "Remnant",
 		"playtime": "33h",
 		"score": "9.5"
 	},
@@ -624,7 +624,7 @@
 	{
 		"name": "Clair Obscur: Expedition 33",
 		"playtime": "27h 25m",
-		"score": "9.8"
+		"score": "9.9"
 	},
 	{
 		"name": "Plague Tale: Innocence",
@@ -652,8 +652,13 @@
 		"score": "9.5"
 	},
 	{
-		"name": "Crime Scene Cleanr",
+		"name": "Crime Scene Cleaner",
 		"playtime": "9h 12m",
 		"score": "9.2"
+	},
+	{
+		"name": "Under The Waves",
+		"playtime": "7h 30m",
+		"score": "8.8"
 	}
 ]
