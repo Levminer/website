@@ -15,7 +15,7 @@ const Home = () => {
 						img={"https://raw.githubusercontent.com/Levminer/cores/dev/.github/screenshots/home.png"}
 						title={"Cores"}
 						description={"Modern hardware monitor with remote monitoring."}
-						website={"https://cores.levminer.com"}
+						website={"https://coresmonitor.com"}
 						source={"https://github.com/levminer/cores"}
 						technologies={"Rust, Svelte, TypeScript, C#"}
 					/>
@@ -30,21 +30,11 @@ const Home = () => {
 					/>
 
 					<AppShowcase
-						img={"https://raw.githubusercontent.com/Levminer/screentime/dev/screenshots/application.png"}
-						title={"Screentime"}
-						description={"Track how much time you spend on your computer."}
-						website={"https://github.com/levminer/screentime/releases"}
-						source={"https://github.com/levminer/screentime"}
-						technologies={"Electron, TypeScript"}
-					/>
-
-					<AppShowcase
-						img={"https://raw.githubusercontent.com/Levminer/netflix-statistics/main/images/en.png"}
-						title={"Netflix Statistics"}
-						description={"View how much time you spent in your life watching Netflix."}
-						website={"https://netflixstatistics.levminer.com"}
-						source={"https://github.com/levminer/netflix-statistics"}
-						technologies={"Next.js, React, TypeScript"}
+						title={"Trusted Signing CLI"}
+						description={"A simple CLI tool to sign files with Trusted Signing"}
+						website={"https://github.com/levminer/trusted-signing-cli"}
+						source={"https://github.com/levminer/trusted-signing-cli"}
+						technologies={"Rust"}
 					/>
 				</div>
 			</section>

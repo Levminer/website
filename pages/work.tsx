@@ -12,7 +12,7 @@ const Home = () => {
 
 			<div className="relative flex min-h-screen flex-col bg-gradient-to-bl from-[#0f172a] via-[#100d50] to-[#0f172a] py-32 font-mono">
 				<div className="mx-auto flex w-full max-w-2xl flex-col items-center justify-center space-y-5 px-5">
-					<h1 className="text-center">Couple of companies I've worked with. Want to work with me? Send a mail to work@levminer.com</h1>
+					<h1 className="">Couple of companies I've worked with. Want to work with me? Send a mail to work@levminer.com</h1>
 
 					<div className="left w-full rounded-xl border-2 border-white p-5">
 						<h2 className="text-2xl font-bold">Giftery International Kft.</h2>

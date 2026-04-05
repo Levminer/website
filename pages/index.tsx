@@ -10,14 +10,14 @@ const Home = () => {
 				<title>Home</title>
 			</Head>
 
-			<div className="relative flex min-h-screen flex-col bg-gradient-to-tr from-[#0f172a] via-[#090816] to-[#06080f] py-32 font-mono">
+			<div className="relative flex min-h-screen flex-col bg-gradient-to-tr from-[#172441] via-[#090816] to-[#06080f] py-32 font-mono">
 				<div className="mx-auto flex w-full max-w-xl flex-col items-center justify-center space-y-5 px-5">
-					<h1 className="text-center">
-						Hi! I'm a Software Engineer based in Hungary, currently working as a freelancer. Mostly working with React, Next.js and React
-						Native.
+					<h1 className="">
+						Hi! I’m a Software Engineer currently working at Mercedes-Benz, also working on freelance projects. Mostly working with React,
+						Next.js and React Native.
 					</h1>
 
-					<div className="w-full rounded-xl border-2 border-white p-5 text-center">
+					<div className="w-full rounded-xl border-2 border-white p-5">
 						<h2 className="text-2xl font-bold">Open-source</h2>
 						<h3 className="text-balance">
 							Couple of things I did in my free time{" "}
@@ -27,17 +27,17 @@ const Home = () => {
 						</h3>
 					</div>
 
-					<div className="w-full rounded-xl border-2 border-white p-5 text-center">
+					<div className="w-full rounded-xl border-2 border-white p-5">
 						<h2 className="text-2xl font-bold">Work</h2>
 						<h3 className="text-balance">
-							Companies I worked with{" "}
+							If you want to work with me, a couple of clients I worked with{" "}
 							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
 								[Work](/work)
 							</Link>
 						</h3>
 					</div>
 
-					<div className="w-full rounded-xl border-2 border-white p-5 text-center">
+					<div className="w-full rounded-xl border-2 border-white p-5">
 						<h2 className="text-2xl font-bold">Socials</h2>
 						<ol className="">
 							<li>

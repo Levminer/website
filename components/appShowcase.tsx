@@ -1,7 +1,7 @@
 import React from "react"
 
 type AppShowcaseProps = {
-	img: string
+	img?: string
 	title: string
 	description: string
 	website: string
@@ -42,15 +42,17 @@ const AppShowcase = (props: AppShowcaseProps) => {
 			</div>
 
 			<div>
-				<div className="relative aspect-[1919/1027] w-full">
-					<img
-						width={1920}
-						height={1020}
-						className="h-full w-full rounded-xl bg-white object-cover p-1"
-						src={props.img}
-						alt={props.title}
-					/>
-				</div>
+				{props.img && (
+					<div className="relative aspect-[1919/1027] w-full">
+						<img
+							width={1920}
+							height={1020}
+							className="h-full w-full rounded-xl bg-white object-cover p-1"
+							src={props.img}
+							alt={props.title}
+						/>
+					</div>
+				)}
 			</div>
 		</div>
 	)
