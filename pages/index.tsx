@@ -12,7 +12,7 @@ const Home = () => {
 
 			<div className="relative flex min-h-screen flex-col bg-gradient-to-tr from-[#172441] via-[#090816] to-[#06080f] py-32 font-mono">
 				<div className="mx-auto flex w-full max-w-xl flex-col items-center justify-center space-y-5 px-5">
-					<h1 className="">
+					<h1 className="text-justify">
 						Hi! I’m a Software Engineer currently working at Mercedes-Benz, also working on freelance projects. Mostly working with React,
 						Next.js and React Native.
 					</h1>
