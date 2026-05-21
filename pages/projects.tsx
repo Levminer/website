@@ -30,10 +30,10 @@ const Home = () => {
 					/>
 
 					<AppShowcase
-						title={"Trusted Signing CLI"}
-						description={"A simple CLI tool to sign files with Trusted Signing"}
-						website={"https://github.com/levminer/trusted-signing-cli"}
-						source={"https://github.com/levminer/trusted-signing-cli"}
+						title={"Artifact Signing CLI"}
+						description={"A simple CLI tool to sign files with Azure Artifact Signing"}
+						website={"https://github.com/levminer/artifact-signing-cli"}
+						source={"https://github.com/levminer/artifact-signing-cli"}
 						technologies={"Rust"}
 					/>
 				</div>
