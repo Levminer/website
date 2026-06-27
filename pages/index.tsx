@@ -30,7 +30,7 @@ const Home = () => {
 					<div className="w-full rounded-xl border-2 border-white p-5">
 						<h2 className="text-2xl font-bold">Work</h2>
 						<h3 className="text-balance">
-							If you want to work with me, a couple of clients I worked with{" "}
+							Interested in working with me? See some of my past clients{" "}
 							<Link className="font-semibold text-blue-500 duration-200 ease-in hover:underline" href="/work">
 								[Work](/work)
 							</Link>
